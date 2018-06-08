@@ -1,0 +1,167 @@
+@media only screen and (max-width:767px) {
+.wrapper {
+    width: 300px;
+}
+.desktop{
+  display: none;
+}
+.header .logo img {
+  height: 100%;
+  width: 150px;
+}
+.header .lang {
+  margin-left: 0px;
+  }
+.header i.fa {
+  margin: 0 4px;
+  }
+#nav-icon3 {
+  width: 40px;
+  height: 40px;
+  margin-top: 6px;
+  }
+#nav-icon3 span {
+    height: 5px;
+  }
+#nav-icon3 span:nth-child(1) {
+    top: 0px;
+  }
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 12px;
+  }
+#nav-icon3 span:nth-child(4) {
+    top: 24px;
+  }
+#nav-icon3.open span:nth-child(1) {
+    top: 12px;
+  }
+#nav-icon3.open span:nth-child(4) {
+  top: 12px;
+}
+.section_one{
+  padding-top: 70px;
+  height: 1000px;
+  background: url(../img/building_mob1-min.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.one_slider {
+  width: 95%;
+  padding: 6px 10px;
+  height: 440px;
+  margin-top: 350px;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 24px;
+  }
+.bx-wrapper .bx-next {
+      right: -8px;
+}
+.bx-wrapper .bx-prev {
+      left: -8px;
+}
+.one_logo span {
+    font-size: 22px;
+}
+.section_name {
+    font-size: 28px;
+    margin: 20px auto;
+  }
+.section_text {
+    font-size: 14px;
+    line-height: 20px;
+}
+.parallax-container, .six_select.parallax-container {
+    height: 100px;
+}
+.three_box{
+  position: static;
+  width: 100%;
+}
+.three_item {
+    width: 33%;
+    padding: 4px;
+}
+#map {
+  height: 500px;
+}
+.four_interactive {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.four_interactive_main {
+    width: 100%;
+}
+.four_interactive_select {
+    width: 59%;
+    position: absolute;
+    top: 105px;
+    right: 0px;
+}
+.six_select.parallax-container {
+    height: auto;
+}
+figure.effect-julia img {
+    height: 182px;
+}
+.grid {
+  padding: 0;
+  max-width: 320px;
+}
+.developer_logo img {
+  max-width: 145px;
+  margin: 0px 10px;
+}
+.document_item {
+  width: 50%;
+  height: 290px;
+  padding: 10px;
+}
+.document_item p{
+  font-size: 10px;
+}
+.section_contact {
+    height: 1120px;
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-position: center bottom;
+
+}
+.foot_info {
+    width: auto;
+    margin-top: 20px;
+    float: left;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+}
+.contact_form {
+  width: 300px;
+  padding: 20px 10px;
+}
+.contact_info {
+  width: 300px;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+.contact_info p {
+  line-height: 1.5;
+}
+.form_name {
+  font-size: 16px;
+}
+input[type=name], input[type=tel], input[type=submit] {
+  height: 48px;
+  margin-bottom: 10px;
+}
+.footer {
+  height: 150px;
+  margin-top: -150px;
+  text-align: -webkit-center;
+}
+.foot_icons {
+  float: none;
+  margin: 0 auto;
+}
+}

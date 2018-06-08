@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+}
+/*//contacts */
+
+.section_contact{
+  height: 1000px;
+  min-height: 100%;
+  padding-top: 130px;
+}
+
+/*o-nas*/
+.section_one{
+  height: 2045px;
+  position: static;
+}
+.one_slider {
+  margin-top: 480px;
+  height: 870px;
+}
+
+/*developer*/
+.section_seven{
+  padding: 75px 0 150px;
+}
+
+/*infrastructura*/
+.section_four{
+  margin-top: 50px;
+}
+.four_render .section_name{
+  width: 550px;
+  background-color: rgba(0, 0, 0,0.4);
+  margin:100px auto 0;
+}
+/*location*/
+.section_two {
+  padding-top: 85px;
+}
+.section_three {
+  padding-bottom: 90px;
+}
+
+
+@media only screen and (max-width:1180px) {
+  .one_slider {
+    margin-top: 380px;
+    height: auto;
+}
+}
+
+@media only screen and (max-width:768px) {
+  .four_render.parallax-container{
+    height: 150px;
+  }
+  .four_render .section_name {
+    width: 100%;
+    margin: 65px auto 0;
+}
+.section_five{
+  padding-bottom: 150px;
+}
+.section_five .parallax-container{
+  height: 230px;
+}
+.section_two {
+  padding-top: 60px;
+}
+.section_three {
+  height: 1086px;
+  margin-bottom: 150px;
+}
+#map {
+    height: 800px;
+}
+
+}

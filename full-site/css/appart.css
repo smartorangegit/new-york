@@ -1,0 +1,224 @@
+body, html{
+  height: 100%
+}
+.section_vibor{
+  padding-top: 75px;
+}
+.section_text p{
+  text-align: center;
+}
+.section_vibor h3{
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+}
+.section_vibor ul{
+  text-align: center;
+}
+.floor_desktop{
+  display: block;
+}
+.one_floor_mob{
+  display: none;
+}
+svg{
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+svg path{
+  fill-opacity:0;
+  transition: 0.35s;
+  -webkit-transition: 0.35s;
+}
+svg path:hover{
+  fill-opacity:0.4;
+}
+.section_vibor li{
+  display: inline-block;
+}
+.section_kimnatna{
+  height: 100%;
+  background: url('../img/vid_3.jpg');
+  background-size: cover;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+.one_slider{
+  margin: 0 auto;
+  height: auto;
+}
+.section_pay{
+  padding: 50px 0;
+}
+.appbut{
+  color: black;
+  padding: 20px 40px;
+  font-size: 24px;
+}
+.section_contact.for_appart {
+    height: 770px;
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+#appInfo{
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  padding: 6px;
+  border: 3px solid lightgrey;
+  background-color: white;
+}
+#appInfo p{
+  line-height: 24px;
+}
+.section_appart{
+  padding-top: 90px;
+  padding-bottom: 150px;
+  min-height: 100%;
+}
+.appart_name img{
+  width: 300px;
+  float: left;
+  display: block;
+  padding-top: 30px;
+}
+.appart_name .section_name{
+  float: right;
+}
+.appart_plan{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px
+}
+.appart_plan img{
+  max-width: 100%;
+}
+.appart_info{
+  width: 50%;
+  float: left;
+  padding-top: 30px;
+}
+.section_appart table {
+  font-size: 20px;
+  line-height: 48px;
+}
+.section_appart table th{
+  font-weight: 500;
+}
+.section_appart table tr {
+  border-bottom: 1px solid lightgrey;
+}
+.section_appart table tr:last-child {
+  border-bottom: none;
+  font-weight: 500;
+}
+.appart_btns {
+  margin: 40px auto;
+}
+.appart_btns .appbut {
+  border: 1px solid black;
+  margin: 0 5px;
+  text-transform: uppercase;
+}
+.btns_left,.btns_right{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.appart_btns .hvr-shutter-out-vertical:before {
+  background: #4C4C4C;
+}
+
+@media only screen and (max-width:1180px) and (min-width:769px) {
+  input[type=name], input[type=tel], input[type=submit] {
+    height: 46px;
+    margin-bottom: 10px;
+    }
+  input[type=submit] {
+    height: 46px;
+  }
+  textarea {
+    height: 90px;
+    margin-bottom: 10px;
+  }
+  .btns_right .appbut:last-child{
+    margin-top: 20px;
+  }
+  .section_kimnatna{
+    height: auto;
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .floor_desktop{
+    display: none;
+  }
+  .one_floor_mob{
+    display: block;
+  }
+  .section_kimnatna{
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .appart_name .section_name {
+    float: none;
+  }
+  .wrapper{
+    width: 90%;
+  }
+  .section_vibor{
+    overflow: auto;
+    padding-top: 60px;
+  }
+  .section_contact.for_appart {
+    height: 1000px;
+    background-image: url(../img/footer_mob.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 20px 0;
+}
+  .section_contact.for_appart .section_name {
+    margin: 0 auto 20px;
+}
+#callback2, #callback3 {
+  border: 2px solid #474545;
+  margin-bottom: 20px;
+
+}
+  .appbut {
+    color: black;
+    padding: 14px 12px;
+    font-size: 24px;
+}
+  .section_appart {
+    padding-top: 60px;
+}
+  .appart_name img{
+    display: none;
+}
+  .appart_plan, .appart_info{
+    width: 100%;
+    float: none;
+}
+  .section_appart table {
+    font-size: 18px;
+    line-height: 36px;
+}
+ .btns_right, .btns_left{
+   width: 100%;
+ }
+ .appart_btns .appbut{
+   margin: 10px auto;
+   font-size: 14px;
+   border-color: #4c4c4c;
+ }
+ .contact_form, .form_name {
+   float: none;
+   margin: 10px auto;
+ }
+
+
+ }

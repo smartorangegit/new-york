@@ -1,0 +1,417 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+@import "_variables";
+
+body{
+  font-family:'Roboto', sans-serif;
+  color: black;
+  background: white;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.animationload{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: white;
+  .loader{
+    width: 130px;
+    height: 60px;
+    display: block;
+    position: fixed;
+    top:0; left:0; bottom:0; right:0;
+    margin: auto;
+    z-index: 9999;
+  }
+}
+.mobile_menu, .navigation li.mobile{
+  display: none;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+.section_text{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 34px;
+}
+.section_name{
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: 40px auto;
+}
+.parallax img{
+  width: 100%;
+}
+.parallax-container .section_name{
+  color:white;
+}
+.trigger-0{
+  position: absolute;
+  top:60vh;
+}
+i.fa {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  font-size: 24px;
+  background-color: black;
+  margin: 8px;
+}
+a.button {
+  display: block;
+  width: 300px;
+  margin: 30px auto;
+  background: white;
+  color: #4A4A4A;
+  height: 50px;
+  line-height: 50px;
+
+}
+a.button:hover {
+  background: #E7E7E7;
+}
+a.button:focus {
+  background: white;
+}
+
+
+.header {
+  height: 75px;
+  box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 10;
+  .wrapper{
+    height: 100%;
+  }
+  .logo, .navigation, .lang, {
+    float: left;
+    transition: 0.35s;
+    height: 100%;
+  }
+  .phone{
+    float: right;
+    // transition: 0.35s;
+    height: 100%;
+  }
+  .logo{
+    width: 88px;
+  }
+  .logo img{
+    height: 100%;
+  }
+}
+.navigation,{
+  margin-left: 40px;
+}
+.lang{
+  margin-left: 20px;
+}
+.navigation ul{
+  display: flow-root;
+}
+.navigation li {
+  float: left;
+  display: inline-block;
+}
+.navigation li a{
+  color:black;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  padding: 18px 10px;
+}
+.hvr-shutter-out-vertical{
+  background-color: #ffffff;
+}
+.lang a{
+  display: block;
+  font-weight: 300;
+  color: black;
+  -webkit-transition: 0.35s;
+  margin: 6px;
+}
+.lang a:hover{
+  font-weight: 400;
+}
+.ringo-phone{
+  font-size: 30px;
+  padding-left: 6px;
+}
+.phone > div {
+  float: left;
+}
+.phone-number a {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+  border-bottom: 1px dashed;
+}
+
+
+.section_one{
+  height: 1900px;
+  background: url('../img/building.jpg');
+  background-size: cover;
+  background-position: center top;
+  padding-top: 200px;
+  position: relative;
+}
+@media only screen and (min-width:1470px) {
+  .section_one{
+    background-position: center 30%;
+  }
+}
+.one_logo img{
+  margin-bottom: 50px;
+}
+.one_logo span {
+  display: inline-block;
+  // width: 300px;
+  font-size: 60px;
+  padding: 10px 20px;
+  border: 1px solid #aaa9b3;
+  margin: 6px 0;
+}
+.one_slider{
+  width: 1000px;
+  height: 600px;
+  background-color: rgba(255,255,255,0.8);
+  border: 5px solid white;
+  box-sizing: border-box;
+  padding: 30px 60px;
+  margin: 650px auto 0;
+}
+.section_two{
+  padding-bottom: 40px;
+}
+.section_three{
+  height: 1100px;
+  width: 100%;
+  position: relative;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+.three_box {
+  position: absolute;
+  z-index: 5;
+  top:50px; left:60%;
+  width: 450px;
+  height: auto;
+  background-color: rgba(255,255,255,0.8);
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+.three_item{
+  width: 50%;
+  float: left;
+  text-align: -webkit-center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.three_number{
+  font-size: 60px;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 100%;
+  margin-bottom: 8px;
+  text-align: center;
+  }
+.three_number span{
+  font-size: 16px;
+  display: block;
+}
+.four_info{
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.four_info .section_text{
+  margin: 40px auto;
+}
+.four_interactive{
+  width: 1100px;
+  margin: 0 auto;
+}
+.four_interactive_main{
+  width: 390px;
+  float: left;
+  position: relative;
+  img{
+    width: 100%;
+  }
+}
+.inter_arrow{
+  float: left;
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 240px;
+}
+.four_interactive_select{
+  width: 530px;
+  float: right;
+  img{
+    width: 100%;
+  }
+}
+.interactive_link{
+  position: absolute;
+  display: inline-block;
+  padding: 6px 10px;
+  background: orange;
+  font-size: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.int_link1{top: 1%; left: 34%;}
+.int_link2{top: 38%; left: 12%;}
+.int_link3{top: 56%; left: 1%;}
+.int_link4{top: 80%; left: 1%;}
+.int_link5{top: 94%; left: 15%;}
+.int_link6{top: 66%; left: 80%;}
+.int_link7{top: 50%; left: 72%;}
+.int_link8{top: 81%; left: 64%;}
+.int_link9{bottom: 1%; left: 65%;}
+
+.six_select.parallax-container{
+  height: 350px;
+}
+
+.developer_logo{
+  text-align: center;
+  margin: 30px auto;
+}
+.document_item{
+  box-sizing: border-box;
+  width: 20%;
+  padding: 30px;
+  float: left;
+  text-align: center;
+  img{
+    width: 100%;
+  }
+  p{
+    margin-top: 20px;
+  }
+}
+.section_contact{
+  height: 1300px;
+  background-image: url(../img/footer.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  padding: 60px 0;
+  overflow: hidden;
+  .section_name{
+    margin: 0 auto 60px;
+  }
+}
+.contact_form{
+  width: 760px;
+  height: 430px;
+  float: left;
+  background: rgba(255,255,255,.9);
+  box-sizing: border-box;
+  padding: 40px 80px;
+}
+.contact_info{
+  width: 380px;
+  height: 430px;
+  background: rgba(255,255,255,.9);
+  float: right;
+  box-sizing: border-box;
+  padding: 40px 80px;
+  p{
+    line-height: 2;
+  }
+}
+.form_name{
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  span{
+    display: block;
+    font-weight: 500;
+  }
+}
+input[type=name], input[type=tel], input[type=submit]{
+  width: 290px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #A9A9A9;
+  margin-bottom: 20px;
+  text-indent: 10px;
+}
+ input[type=tel], input[type=submit]{
+   float: right;
+ }
+textarea{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  text-indent: 10px;
+  padding-top: 10px;
+}
+input[type=submit]{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+input:focus, input[type=tel]:focus, textarea:focus{
+  outline: none!important;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7)!important;
+}
+.footer{
+  background: rgba(0,0,0,0.7);
+  height: 90px;
+  margin-top: -90px;
+}
+.foot_info{
+  width: auto;
+  margin-top: 20px;
+  float: left;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
+.foot_icons{
+  float: right;
+  margin-top: 16px;
+  a i.fa{
+    background: white;
+    color: #69635F;
+    transition: 0.35s;
+    -webkit-transition: 0.35s;
+
+  }
+  a:hover i.fa{
+    background:orange;
+    color: #69635F;
+}
+
+}
+
+@import "_tablet";
+@import "_mobile";
