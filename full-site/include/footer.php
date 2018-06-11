@@ -98,7 +98,7 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
       </div>
 	  <div id="mob-phone" class="min" style="text-align:center;width:100%;">044<a class="ringo-phone" style="color:#000;padding-left: 6px;" href="tel:0444980100"><span class="ringo-phone" style="letter-spacing:0;">498 01 00</span></a></div>
     </div>
-<a href="http://saga-development.com.ua/" class="saga-logo" target="_blank">
+<a href="http://saga-development.com.ua/" class="saga-logo <?if(count(explode("/", $_SERVER['REQUEST_URI']))>2){echo 'saga_logo_off';}?>" target="_blank">
 <img src="/img/saga-logo.svg">
 </a>
 
@@ -119,6 +119,7 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 	.saga-logo {
 		right: 30px;
 	}
+	.saga_logo_off {display:none;}
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px){
