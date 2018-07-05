@@ -1,19 +1,21 @@
+<?php include_once('../include/utm.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Купити квартиру у центрі Києва - ЖК NEW YORK Concept House</title>
+    <title>≡ ЖК Нью Йорк 》 Купити квартиру в житловому комплексі NEW YORK Concept House</title>
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="cache-control" content="cache">
     <meta http-equiv="content-language" content="ua">
     <?php include_once('../include/gtm1.php'); ?>
     <meta name="robots" content="index, follow"/>
     <meta name="keywords" content="2-кімнатна квартира, Купити квартиру, купити апартаменты, Київ, центр, NEW YORK Concept House, ЖК New York, ЖК Нью-Йорк, новобудова, планувальні рішення">
-    <meta name="description" content="<?php echo $row["rooms_count"] ?> кімнатна квартира, <?php echo $row["square"] ?> м2 в ЖК NEW YORK Concept House. Американська якість. Українська ціна. Панорамні квартири з видом на центр та Костел Святого Миколая.">
+    <meta name="description" content="【Квартири】 NEW YORK Concept House - це Американське якість за українську ціну в центрі!  ✅【NEW YORK】 7 хвилин пішки до найближчих 2х станцій метро, ​​20 хвилин до Хрещатика ... ✅【NEW YORK】 Затишний сад у дворі, два дитячих та один баскетбольний майданчики! .... ✅【NEW YORK】 - це частинка Манхеттена в українській столиці!">
     <link rel="alternate" hreflang="ua" href="http://new-york.com.ua/apartments/" />
 	<link rel="alternate" hreflang="ru" href="http://new-york.com.ua/ru/apartments/" />
     <link rel="canonical" href="http://new-york.com.ua/apartments/"/>
     <link rel="shortcut icon" href="/img/icons/favicon.ico">
+    <link href="/css/intlTelInput.css" rel="stylesheet">
     <link href="/css/allstyle.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/appart.css" rel="stylesheet">
@@ -368,8 +370,7 @@
           Купити нерухомість в ЖК NEW YORK Concept House дуже просто. Для цього потрібно
           зателефонувати нам за номером, вказаним в правому верхньому кутку або замовити
           зворотний дзвінок. До речі, будівництво житлового комплексу буде завершено вже в
-          третьому кварталі 2017 року, так що поспішіть купити квартиру вже сьогодні, щоб зустріти
-          новий 2018 рік у своєму новому будинку мрії.
+          четвертому кварталі 2017 року.
         </div>
       </div>
     </div>
@@ -384,13 +385,14 @@
               будь-ласка, зв&prime;яжіться із нами:
             </span>
           </div>
-              <form id="form2" class="" action="/application.php" method="post">
+              <form id="form2" class="custom_page_callback_form" action="/application.php" method="post">
               <input type="text" name="name" value="" placeholder="Ваше і&prime;мя" required>
-              <input type="tel" name="tel" value="" placeholder="Номер телефону" id="main_page_form_phone" required>
+              <input type="tel" name="tel" value="" placeholder="Номер телефону" id="main_page_form_phone" required class="custom_page_callback_form_phone">
               <textarea tabindex="4" onkeyup="javascript:countme();"  rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
     <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
     <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
     <input  name="inn" class="userInn" type="hidden" value="New-York callback"/>
+    <input  name="language"type="hidden" value="<?= $language; ?>">
               <?//<div class="not" id="reCaptcha2"></div>?>
               <input class="button" type="submit" name="" value="Надіслати">
             </form>
@@ -409,9 +411,9 @@
         </div>
         <div class="contact_info form_name wow bounceInRight" data-wow-delay="0.5ms">
           <span>Відділ продажу</span>
-          <p><a style="color: #000" id="main_page_form" href="">(044) <span class="ringo-phone">338-88-28</span></a></p>
+          <p><a style="color: #000" id="main_page_form" href="">(044) <span class="ringo-phone">498-01-00</span></a></p>
           <p>Київ, вул.Антоновича, 74-78</p>
-          <p>Пн - Пт: 10.00 - 20.00</p>
+          <p>Пн - Пт: 9.00 - 19.00</p>
           <p>Сб - Нд: 10.00 - 18.00</p>
           <p>info@new-york.com.ua</p>
           <span>Відділ маркетингу</span>

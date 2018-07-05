@@ -108,7 +108,7 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 .saga-logo {
     position: fixed;
     top: 111px;
-    right: 113px;
+    right: 70px;
     display: block;
     width: 60px;
     z-index: 20;
@@ -130,8 +130,7 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
   }
 }
 </style>
-
-<style>
+	<style>
 #mob-phone{display:none;}
   @media only screen and (max-width: 1180px){
 	#mob-phone{display:inline-block;}  

@@ -61,7 +61,11 @@ polygon.setMap(map);
 //polygon2.setMap(map);
 
 var infoBubble, infoBubble2, infoBubble3, infoBubble4, infoBubble5, infoBubble6, infoBubble7, infoBubble8, infoBubble9,
-infoBubble10, infoBubble11, infoBubble12;
+infoBubble10, infoBubble11, infoBubble12, infoBubble13, infoBubble14, infoBubble15, infoBubble16, infoBubble17, 
+infoBubble18, infoBubble19, infoBubble20, infoBubble21, infoBubble22, infoBubble23;
+
+
+
 var marker = new google.maps.Marker({
 map: map,
 position: new google.maps.LatLng(50.426528, 30.514185),
@@ -383,6 +387,8 @@ width: 30,
 infoBubble9 = new InfoBubble({
 map: map,
 content: '<div class="phoneytext" style="text-align:center;">Метро Палац "Україна"'+
+'<hr/>' +
+'<img src="/img/pin/metroPalace.jpg" alt="school" width="180px"/>' +
 '</div>',
 position: new google.maps.LatLng(50.420626, 30.521139),
 shadowStyle: 1,
@@ -450,5 +456,387 @@ google.maps.event.addListener(map, "click", function () {
 infoBubble10.close();
 });
 
+var marker13 = new google.maps.Marker({
+  map: map,
+  position: new google.maps.LatLng(50.434936, 30.518797),
+  icon:  '/img/pin/school.png'
+  });
+
+  infoBubble13 = new InfoBubble({
+    map: map,
+    content: '<div class="phoneytext" style="text-align:center;">Школа №78'+
+    '<hr>'+
+    '<img src="/img/pin/school78.jpg" alt="school" height="180px"/>'+
+    '</div>',
+    position: new google.maps.LatLng(50.434936, 30.518797),
+    shadowStyle: 1,
+    padding: 0,
+    backgroundColor: '#ffffff',
+    borderRadius: 4,
+    arrowSize: 10,
+    borderWidth: 0,
+    borderColor: '#ff000b',
+    disableAutoPan: true,
+    hideCloseButton: true,
+    arrowPosition: 30,
+    backgroundClassName: 'phoney',
+    arrowStyle: 2
+    });
+
+    marker13.addListener('click', function() {
+      infoBubble13.open(map, marker13);
+    });
+    google.maps.event.addListener(map, "click", function () {
+    infoBubble13.close();
+    });
+
+
+    var marker14 = new google.maps.Marker({
+      map: map,
+      position: new google.maps.LatLng(50.434641, 30.517662),
+      icon:  '/img/pin/school.png'
+      });
+    
+      infoBubble14 = new InfoBubble({
+        map: map,
+        content: '<div class="phoneytext" style="text-align:center;">Природничо-науковий ліцей №145'+
+        '<hr>'+
+        '<p></p>'+
+        '</div>',
+        position: new google.maps.LatLng(50.434641, 30.517662),
+        shadowStyle: 1,
+        padding: 0,
+        backgroundColor: '#ffffff',
+        borderRadius: 4,
+        arrowSize: 10,
+        borderWidth: 0,
+        borderColor: '#ff000b',
+        disableAutoPan: true,
+        hideCloseButton: true,
+        arrowPosition: 30,
+        backgroundClassName: 'phoney',
+        arrowStyle: 2
+        });
+    
+      marker14.addListener('click', function() {
+        infoBubble14.open(map, marker14);
+      });
+      google.maps.event.addListener(map, "click", function () {
+        infoBubble14.close();
+      });
+
+      var marker15 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(50.433638, 30.5165729),
+        icon:  '/img/pin/school.png'
+        });
+      
+        infoBubble15 = new InfoBubble({
+          map: map,
+          content: '<div class="phoneytext" style="text-align:center;">Театр Оперети'+
+          '<hr>'+
+          '<img src="/img/pin/operaTheatre.jpg" alt="school" width="180px"/>'+
+          '</div>',
+          position: new google.maps.LatLng(50.433638, 30.5165729),
+          shadowStyle: 1,
+          padding: 0,
+          backgroundColor: '#ffffff',
+          borderRadius: 4,
+          arrowSize: 10,
+          borderWidth: 0,
+          borderColor: '#ff000b',
+          disableAutoPan: true,
+          hideCloseButton: true,
+          arrowPosition: 30,
+          backgroundClassName: 'phoney',
+          arrowStyle: 2
+          });
+      
+        marker15.addListener('click', function() {
+          infoBubble15.open(map, marker15);
+        });
+        google.maps.event.addListener(map, "click", function () {
+          infoBubble15.close();
+        });
+
+        var marker16 = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(50.431527, 30.516918),
+          icon:  '/img/pin/school.png'
+          });
+        
+          infoBubble16 = new InfoBubble({
+            map: map,
+            content: '<div class="phoneytext" style="text-align:center;">Планетарій'+
+            '<hr>'+
+            '<img src="/img/pin/planetarium.jpg" alt="school" width="180px"/>'+
+            '</div>',
+            position: new google.maps.LatLng(50.431527, 30.516918),
+            shadowStyle: 1,
+            padding: 0,
+            backgroundColor: '#ffffff',
+            borderRadius: 4,
+            arrowSize: 10,
+            borderWidth: 0,
+            borderColor: '#ff000b',
+            disableAutoPan: true,
+            hideCloseButton: true,
+            arrowPosition: 30,
+            backgroundClassName: 'phoney',
+            arrowStyle: 2
+            });
+        
+          marker16.addListener('click', function() {
+            infoBubble16.open(map, marker16);
+          });
+          google.maps.event.addListener(map, "click", function () {
+            infoBubble16.close();
+          });
+
+  var marker17 = new google.maps.Marker({
+    map: map,
+    position: new google.maps.LatLng(50.4322368, 30.5156769),
+    icon:  '/img/pin/market.png'
+    });
+  
+    infoBubble17 = new InfoBubble({
+      map: map,
+      content: '<div class="phoneytext" style="text-align:center;">ТЦ "Олімпійський"'+
+      '<hr>'+
+      '<img src="/img/pin/tcolimpiskiy.jpg" alt="school" width="180px"/>'+
+      '</div>',
+      position: new google.maps.LatLng(50.4322368, 30.5156769),
+      shadowStyle: 1,
+      padding: 0,
+      backgroundColor: '#ffffff',
+      borderRadius: 4,
+      arrowSize: 10,
+      borderWidth: 0,
+      borderColor: '#ff000b',
+      disableAutoPan: true,
+      hideCloseButton: true,
+      arrowPosition: 30,
+      backgroundClassName: 'phoney',
+      arrowStyle: 2
+      });
+  
+    marker17.addListener('click', function() {
+      infoBubble17.open(map, marker17);
+    });
+    google.maps.event.addListener(map, "click", function () {
+      infoBubble17.close();
+    });
+
+
+var marker18 = new google.maps.Marker({
+  map: map,
+  position: new google.maps.LatLng(50.428576, 30.5206434),
+  icon:  '/img/pin/school.png'
+  });
+
+  infoBubble18 = new InfoBubble({
+    map: map,
+    content: '<div class="phoneytext" style="text-align:center;">Гімназія №32 "Успіх"'+
+    '<hr>'+
+    '<img src="/img/pin/88_big.jpg" alt="school" width="180px"/>'+
+    '</div>',
+    position: new google.maps.LatLng(50.428576, 30.5206434),
+    shadowStyle: 1,
+    padding: 0,
+    backgroundColor: '#ffffff',
+    borderRadius: 4,
+    arrowSize: 10,
+    borderWidth: 0,
+    borderColor: '#ff000b',
+    disableAutoPan: true,
+    hideCloseButton: true,
+    arrowPosition: 30,
+    backgroundClassName: 'phoney',
+    arrowStyle: 2
+    });
+
+  marker18.addListener('click', function() {
+    infoBubble18.open(map, marker18);
+  });
+  google.maps.event.addListener(map, "click", function () {
+    infoBubble18.close();
+  });
+
+// var marker19 = new google.maps.Marker({
+//   map: map,
+//   position: new google.maps.LatLng(50.427672, 30.514480),
+//   icon:  '/img/pin/park.png'
+//   });
+
+//   infoBubble19 = new InfoBubble({
+//     map: map,
+//     content: '<div class="phoneytext" style="text-align:center;">Парк'+
+//     '<hr>'+
+//     '<img src="/img/pin/park.jpg" alt="school" width="180px"/>'+
+//     '</div>',
+//     position: new google.maps.LatLng(50.427672, 30.514480),
+//     shadowStyle: 1,
+//     padding: 0,
+//     backgroundColor: '#ffffff',
+//     borderRadius: 4,
+//     arrowSize: 10,
+//     borderWidth: 0,
+//     borderColor: '#ff000b',
+//     disableAutoPan: true,
+//     hideCloseButton: true,
+//     arrowPosition: 30,
+//     backgroundClassName: 'phoney',
+//     arrowStyle: 2
+//     });
+
+//   marker19.addListener('click', function() {
+//     infoBubble19.open(map, marker19);
+//   });
+//   google.maps.event.addListener(map, "click", function () {
+//     infoBubble19.close();
+//   });
+  
+var marker20 = new google.maps.Marker({
+  map: map,
+  position: new google.maps.LatLng(50.42600485, 30.51528275),
+  icon:  '/img/pin/market.png'
+  });
+
+  infoBubble20 = new InfoBubble({
+    map: map,
+    content: '<div class="phoneytext" style="text-align:center;">ТЦ "Billa"'+
+    '<hr>'+
+    '<img src="/img/pin/billa2.jpg" alt="school" width="180px"/>'+
+    '</div>',
+    position: new google.maps.LatLng(50.426004, 30.515282),
+    shadowStyle: 1,
+    padding: 0,
+    backgroundColor: '#ffffff',
+    borderRadius: 4,
+    arrowSize: 10,
+    borderWidth: 0,
+    borderColor: '#ff000b',
+    disableAutoPan: true,
+    hideCloseButton: true,
+    arrowPosition: 30,
+    backgroundClassName: 'phoney',
+    arrowStyle: 2
+    });
+
+  marker20.addListener('click', function() {
+    infoBubble20.open(map, marker20);
+  });
+  google.maps.event.addListener(map, "click", function () {
+    infoBubble20.close();
+  });
+
+  var marker21 = new google.maps.Marker({
+    map: map,
+    position: new google.maps.LatLng(50.42227, 30.52099),
+    icon:  '/img/pin/kostel.png'
+    });
+  
+    infoBubble21 = new InfoBubble({
+      map: map,
+      content: '<div class="phoneytext" style="text-align:center;">Палац Україна'+
+      '<hr>'+
+      '<img src="/img/pin/palaceUA.jpg" alt="school" width="180px"/>'+
+      '</div>',
+      position: new google.maps.LatLng(50.426004, 30.515282),
+      shadowStyle: 1,
+      padding: 0,
+      backgroundColor: '#ffffff',
+      borderRadius: 4,
+      arrowSize: 10,
+      borderWidth: 0,
+      borderColor: '#ff000b',
+      disableAutoPan: true,
+      hideCloseButton: true,
+      arrowPosition: 30,
+      backgroundClassName: 'phoney',
+      arrowStyle: 2
+      });
+  
+    marker21.addListener('click', function() {
+      infoBubble21.open(map, marker21);
+    });
+    google.maps.event.addListener(map, "click", function () {
+      infoBubble21.close();
+    });
+
+var marker22 = new google.maps.Marker({
+  map: map,
+  position: new google.maps.LatLng(50.423288, 30.521117),
+  icon:  '/img/pin/school.png'
+  });
+
+  infoBubble22 = new InfoBubble({
+    map: map,
+    content: '<div class="phoneytext" style="text-align:center;">Гімназія №56'+
+    '<hr>'+
+    '<img src="/img/pin/school56.jpg" alt="school" width="180px"/>'+
+    '</div>',
+    position: new google.maps.LatLng(50.423288, 30.521117),
+    shadowStyle: 1,
+    padding: 0,
+    backgroundColor: '#ffffff',
+    borderRadius: 4,
+    arrowSize: 10,
+    borderWidth: 0,
+    borderColor: '#ff000b',
+    disableAutoPan: true,
+    hideCloseButton: true,
+    arrowPosition: 30,
+    backgroundClassName: 'phoney',
+    arrowStyle: 2
+    });
+
+  marker22.addListener('click', function() {
+    infoBubble22.open(map, marker22);
+  });
+  google.maps.event.addListener(map, "click", function () {
+    infoBubble22.close();
+  });
+
+  var marker23 = new google.maps.Marker({
+    map: map,
+    position: new google.maps.LatLng(50.4198526, 30.517525),
+    icon:  '/img/pin/school.png'
+    });
+  
+    infoBubble23 = new InfoBubble({
+      map: map,
+      content: '<div class="phoneytext" style="text-align:center;">Середня школа №37'+
+      '<hr>'+
+      '</div>',
+      position: new google.maps.LatLng(50.4198526, 30.517525),
+      shadowStyle: 1,
+      padding: 0,
+      backgroundColor: '#ffffff',
+      borderRadius: 4,
+      arrowSize: 10,
+      borderWidth: 0,
+      borderColor: '#ff000b',
+      disableAutoPan: true,
+      hideCloseButton: true,
+      arrowPosition: 30,
+      backgroundClassName: 'phoney',
+      arrowStyle: 2
+      });
+  
+    marker23.addListener('click', function() {
+      infoBubble23.open(map, marker23);
+    });
+    google.maps.event.addListener(map, "click", function () {
+      infoBubble23.close();
+    });
+
+    
+    var allBubbles = [];
+    function closeAll() {
+      allBubbles.forEach(function(bubble) {
+        bubble.close();
+      })
+    }
 
 }

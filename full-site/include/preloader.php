@@ -115,7 +115,7 @@ function init() {
             }
             // Updates a div that displays the current percent
             loadingCircleText.innerHTML = currentPercent + '%';
-        }, 50);
+        }, 40);
     });
 }
 
@@ -127,8 +127,8 @@ return {
 
 // Для того чтобы заработал прелоавдер разкоментируй строку
 if(!sessionStorage.getItem('preloaderRan')) {
-    sagapreloaderAnimation.init();
-}
+ sagapreloaderAnimation.init();
+ }
 
 // preloaderAnimation
     </script>

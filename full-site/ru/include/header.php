@@ -45,6 +45,8 @@ if($pieces[3] == "ru") {
               };
                 </script>
 */?>
+<? include('preloader.php'); ?>
+
 <!-- preloder -->
 <div class="animationload">
    <div class="loader"><img src="/img/icons/loader.gif"></div>
@@ -59,7 +61,7 @@ if($pieces[3] == "ru") {
       </a>
       <div class="navigation">
         <ul>
-          <li><a class="hvr-shutter-out-vertical dropdown-button1" data-activates="dropdown2" href="#" style="min-width:134px;">О нас <i class="material-icons right">&#9660;</i></a></li>
+          <li><a class="hvr-shutter-out-vertical dropdown-button1" data-activates="dropdown2" href="#" style="min-width:134px;">О нас <i class="material-icons right" style="font-size:16px; margin-top:0px;">&#9660;</i></a></li>
                     <ul id="dropdown2" class="dropdown-content">
                       <li><a class="hvr-shutter-out-vertical" href="/ru/o-nas/">О нас</a></li>
                       <li><a class="hvr-shutter-out-vertical" href="/ru/developer/">Застройщик</a></li>
@@ -85,6 +87,7 @@ if($pieces[3] == "ru") {
       <div class="phone">
         <div>
           <a id="callback3" href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+		  
         </div>
         <div class="phone-number">
         <div class="min">044<a style="color: #000" id="header_ringo" href=""><span class="ringo-phone" style="letter-spacing:0;">290 33 96</span></a></div>
@@ -102,3 +105,7 @@ if($pieces[3] == "ru") {
   </div>
 </div>
 <!-- ======end header======= -->
+<style>
+  #callback3{display:inline-block;}
+
+</style>

@@ -4,7 +4,7 @@ body, html {
 /*//contacts */
 
 .section_contact{
-  height: 1000px;
+  /*height: 1000px;*/
   min-height: 100%;
   padding-top: 130px;
 }
@@ -40,7 +40,6 @@ body, html {
 .section_three {
   padding-bottom: 90px;
 }
-
 
 @media only screen and (max-width:1180px) {
   .one_slider {

@@ -51,9 +51,13 @@ function setfloorpick(pic)
   $('#btn610').removeClass("btn-floor-active");
   $('#btn1115').removeClass("btn-floor-active");
   $('#btn1621').removeClass("btn-floor-active");
+  $('#btn1720').removeClass("btn-floor-active");
+  $('#btn21').removeClass("btn-floor-active");
 
   if(pic == 35)
   {
+	$('#floor1720-div').css("display", "none");
+	$('#floor21-div').css("display", "none");
     $('#floor1621-div').css("display", "none");
     $('#floor1115-div').css("display", "none");
     $('#floor610-div').css("display", "none");
@@ -67,6 +71,8 @@ function setfloorpick(pic)
     $('#floor35-div').css("display", "none");
     $('#floor1115-div').css("display", "none");
     $('#floor1621-div').css("display", "none");
+	$('#floor1720-div').css("display", "none");
+	$('#floor21-div').css("display", "none");
     // $('.map').maphilight( { stroke: false } );
 
     $('#btn610').addClass("btn-floor-active");
@@ -77,6 +83,8 @@ function setfloorpick(pic)
     $('#floor35-div').css("display", "none");
     $('#floor1621-div').css("display", "none");
     $('#floor1115-div').css("display", "block");
+	$('#floor1720-div').css("display", "none");
+	$('#floor21-div').css("display", "none");
     // $('.map').maphilight( { stroke: false } );
     $('#btn1115').addClass("btn-floor-active");
   }
@@ -86,7 +94,31 @@ function setfloorpick(pic)
     $('#floor35-div').css("display", "none");
     $('#floor1621-div').css("display", "block");
     $('#floor1115-div').css("display", "none");
+	$('#floor1720-div').css("display", "none");
+	$('#floor21-div').css("display", "none");
     // $('.map').maphilight( { stroke: false } );
     $('#btn1621').addClass("btn-floor-active");
+  }
+    else if(pic == 1720)
+  {
+    $('#floor610-div').css("display", "none");
+    $('#floor35-div').css("display", "none");
+    $('#floor1720-div').css("display", "block");
+    $('#floor1115-div').css("display", "none");
+	$('#floor1621-div').css("display", "none");
+	$('#floor21-div').css("display", "none");
+    // $('.map').maphilight( { stroke: false } );
+    $('#btn1720').addClass("btn-floor-active");
+  }
+    else if(pic == 21)
+  {
+    $('#floor610-div').css("display", "none");
+    $('#floor35-div').css("display", "none");
+    $('#floor1720-div').css("display", "none");
+    $('#floor1115-div').css("display", "none");
+	$('#floor1621-div').css("display", "none");
+	$('#floor21-div').css("display", "block");
+    // $('.map').maphilight( { stroke: false } );
+    $('#btn21').addClass("btn-floor-active");
   }
 }

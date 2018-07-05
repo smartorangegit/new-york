@@ -56,11 +56,14 @@
 	<a href="http://saga-development.com.ua/" class="saga-logo <?if(count(explode("/", $_SERVER['REQUEST_URI']))>3){echo 'saga_logo_off';}?>" target="_blank">
 <img src="/img/saga-logo.svg">
 </a>
+
+
+
 <style>
 .saga-logo {
     position: fixed;
     top: 111px;
-    right: 113px;
+    right: 70px;
     display: block;
     width: 60px;
     z-index: 20;
@@ -73,14 +76,21 @@
 	}
 	.saga_logo_off {display:none;}
 }
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+  .saga-logo {
+    position: absolute;
+    left: 10px;
+    top: 260px;
+  }
+}
 </style>
-<style>
+	<style>
 #mob-phone{display:none;}
   @media only screen and (max-width: 1180px){
 	#mob-phone{display:inline-block;}  
   }
 </style>
-
 <script>
     var element1 = document.getElementById('form2');
     var element2 = document.getElementById('form');

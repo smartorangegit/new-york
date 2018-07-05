@@ -1,3 +1,4 @@
+<?php include_once('../../include/utm.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,7 +13,8 @@
     <link rel="alternate" hreflang="ua" href="http://new-york.com.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
 	<link rel="alternate" hreflang="ru" href="http://new-york.com.ua<?php echo '/ru'.$_SERVER['REQUEST_URI'];?>" />
     <link rel="canonical" href="http://new-york.com.ua<?php echo  $_SERVER['REQUEST_URI'];?>"/>
-    <link rel="shortcut icon" href="/img/icons/favicon.ico">
+	<link rel="shortcut icon" href="/img/icons/favicon.ico">
+	<link href="/css/intlTelInput.css" rel="stylesheet">
     <link href="/css/allstyle.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/appart.css" rel="stylesheet">
@@ -52,7 +54,7 @@
 						<a id="callback3" class="appbut hvr-shutter-out-vertical" onclick="return false;" href="/">Дізнатись ціну</a>
 					</div>
 					<div class="btns_right">
-						<a class="appbut hvr-shutter-out-vertical" dounload href="/img/Kv/pdf/1K.pdf">завантажити PDF</a>
+						<a target="_blank" class="appbut hvr-shutter-out-vertical" dounload href="/img/Kv/pdf/1K.pdf">завантажити PDF</a>
 						<a class="appbut hvr-shutter-out-vertical" href="/apartments/">усі квартири</a>
 					</div>
 				</div>
@@ -61,7 +63,6 @@
     <!-- ===== end section appart==== -->
     <?php include_once('../../include/footer.php'); ?>
     <script src="https://use.fontawesome.com/8f277e411d.js"></script>
-    <script src="/js/jquery-2.1.3.min.js" type="text/javascript"></script>
     <script src="/js/wow.min.js"></script>
     <script src="/js/jquery.easing.js" type="text/javascript"></script>
     <script src="/js/jquery.bxslider.js"></script>
@@ -71,6 +72,5 @@
     <script type="text/javascript" src="/js/ScrollMagic.js"></script>
     <script type="text/javascript" src="/js/animation.gsap.min.js"></script>
     <script src="/js/script.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
   </body>
 </html>

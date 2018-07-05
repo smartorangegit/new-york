@@ -1,3 +1,4 @@
+<?php include_once('../../../include/utm.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,6 +17,7 @@
     <script src="https://use.fontawesome.com/8f277e411d.js"></script>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/img/icons/favicon.ico">
+    <link href="/css/intlTelInput.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
     <link href="/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="/css/jquery.fancybox.css" rel="stylesheet" />
@@ -61,7 +63,7 @@
 						<a id="callback4" class="appbut hvr-shutter-out-vertical" onclick="return false;" href="/">узнать цену</a>
 					</div>
 					<div class="btns_right">
-						<a class="appbut hvr-shutter-out-vertical" dounload href="/img/Kv/pdf/1K.pdf">скачать PDF</a>
+						<a target="_blank" class="appbut hvr-shutter-out-vertical" dounload href="/img/Kv/pdf/1K.pdf">скачать PDF</a>
 						<a class="appbut hvr-shutter-out-vertical" href="/ru/apartments/">все квартиры</a>
 					</div>
 				</div>
@@ -69,8 +71,6 @@
     </div>
     <!-- ===== end section appart==== -->
     <?php include_once('../../include/footer.php'); ?>
-
-    <script src="/js/jquery-2.1.3.min.js" type="text/javascript"></script>
     <script src="/js/wow.min.js"></script>
     <script src="/js/jquery.easing.js" type="text/javascript"></script>
     <script src="/js/jquery.bxslider.js"></script>
@@ -80,12 +80,5 @@
     <script type="text/javascript" src="/js/ScrollMagic.js"></script>
     <script type="text/javascript" src="/js/animation.gsap.min.js"></script>
     <script src="/js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-		<script>
-		$(function(){
-			  $("#callback_form_phone_input").mask("(999) 999-99-99");
-        $("#yourPhone").mask("(999) 999-99-99");
-		});
-		</script>
   </body>
 </html>

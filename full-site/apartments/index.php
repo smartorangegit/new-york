@@ -37,7 +37,9 @@
             <li><a id="btn35" onclick="setfloorpick(35)" class="appbut hvr-shutter-out-vertical btn-floor-active" href="#">3-7 Поверх</a></li>
             <li><a id="btn610" onclick="setfloorpick(610)" class="appbut hvr-shutter-out-vertical" href="#">8-10 Поверх</a></li>
             <li><a id="btn1115" onclick="setfloorpick(1115)" class="appbut hvr-shutter-out-vertical" href="#">11-15 Поверх</a></li>
-            <li><a id="btn1621" onclick="setfloorpick(1621)" class="appbut hvr-shutter-out-vertical" href="#">16-21 Поверх</a></li>
+            <li><a id="btn1621" onclick="setfloorpick(1621)" class="appbut hvr-shutter-out-vertical" href="#">16 Поверх</a></li>
+			<li><a id="btn1720" onclick="setfloorpick(1720)" class="appbut hvr-shutter-out-vertical" href="#">17-20 Поверх</a></li>
+			<li><a id="btn21" onclick="setfloorpick(21)" class="appbut hvr-shutter-out-vertical" href="#">21 Поверх</a></li>
             <li><a id="callback3" onclick="setfloorpick(35)" class="appbut hvr-shutter-out-vertical" href="#" style="text-transform:uppercase">Дізнатись ціну</a></li>
           </ul>
         <div class="row" id="floor35-div">
@@ -257,7 +259,7 @@
 
         <div class="row" id="floor1621-div" style="display:none">
           <div class="section-description floor_desktop">
-            <img usemap="#floor1621" alt="План 16-21 поверху ЖК NEW YORK Concept House" class="map center-block" src="/img/Kv/floor-plan-16-21.jpg" />
+           <!-- <img usemap="#floor1621" alt="План 16-21 поверху ЖК NEW YORK Concept House" class="map center-block" src="/img/Kv/floor-plan-16.jpg" />
             <map name="floor1621" id="floor1621">
               <area alt="2Е" data-title="2-кімнатна квартира 87,03 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|87,03|44,63|3-21')" href="18-2-rooms-2e-type/" shape="poly" coords="113,150,236,150,237,257,265,257,266,304,88,303,87,239,112,238" />
               <area alt="2Д" data-title="2-кімнатна квартира 70,49 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|70,49|34,50|3-21')" href="19-2-rooms-2d-type/" shape="poly" coords="236,149,371,149,371,250,351,251,350,303,265,304,263,256,236,256" />
@@ -268,13 +270,23 @@
               <area alt="1К" data-title="1-кімнатна квартира 50,67 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('1|50,67|15,15|3-21')" href="8-1-rooms-1k-type/" shape="poly" coords="369,619,464,619,464,660,492,659,491,746,393,747,374,688,370,688" />
               <area alt="1Л" data-title="1-кімнатна квартира 48,95 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('1|48,95|17,81|3-21')" href="9-1-rooms-1l-type/" shape="poly" coords="350,344,349,454,325,455,325,478,285,478,286,455,235,455,236,379,259,378,259,345" />
               <area alt="2И" data-title="2-кімнатна квартира 80,32 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|80,32|44,16|3-21')" href="20-2-rooms-2i-type/" shape="poly" coords="235,456,110,455,111,365,86,366,87,303,213,304,213,343,259,345,259,380,234,378" />
-            </map>
+            </map> -->
+			<!-- new map floor 16-->
+			<img usemap="#floor1621" alt="План 16 поверху ЖК NEW YORK Concept House" class="map center-block" src="/img/Kv/floor-plan-16.jpg" />
+				<map name="floor1621" id="floor1621">
+					<area alt="2А" data-title="2-кімнатна квартира 56,86 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|56,86|28,32|3-21')" href="kv-180-2a-2-1-10/" shape="poly" coords="528, 838, 529, 952, 597, 952, 599, 980, 638, 979, 632, 853, 565, 854, 561, 833" />
+					<area alt="3Б" data-title="3-кімнатна квартира 94,73 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('3|94,73|48,49|3-21')" href="kv-179-3b-1-1-9-10/" shape="poly" coords="527, 624, 527, 808, 547, 807, 547, 819, 571, 821, 574, 840, 636, 841, 631, 625" />
+					<area alt="4В" data-title="4-кімнатна квартира 125,88 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('4|125,88|66,18|3-21')" href="kv-181-4v-2-1-11-12/" shape="poly" coords="379, 613, 379, 682, 457, 956, 515, 955, 516, 862, 485, 862, 485, 801, 478, 801, 477, 763, 485, 763, 483, 662, 458, 663, 456, 628, 447, 613" />
+					<area alt="3А" data-title="3-кімнатна квартира 131,89 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('3|131,89|65,42|3-21')" href="kv-177-3a-3-1-1/" shape="poly" coords="96, 316, 95, 366, 116, 367, 115, 454, 291, 454, 289, 473, 313, 474, 314, 453, 341, 450, 341, 349, 208, 347, 207, 313" />
+					<area alt="3В" data-title="3-кімнатна квартира 161,49 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('3|161,49|105,34|3-21')" href="kv-178-3v-3-1-2/" shape="poly" coords="120, 157, 120, 244, 96, 246, 96, 299, 342, 301, 342, 250, 358, 250, 359, 156" />
+				</map>
+			<!--end new map new map floor 16-->
           </div>
           <div class="one_floor_mob">
-            <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg4136"
+<!--            <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg4136"
                version="1.1" width="1000" height="1237.5" viewBox="0 0 1000 1237.5" sodipodi:docname="floor-plan-16-21.svg">
               <metadata id="metadata4142"></metadata><defs id="defs4140" />
-              <image sodipodi:absref="D:\New-york New\img\Kv\floor-plan-16-21.jpg" xlink:href="\img\Kv\floor-plan-16-21.jpg" y="0" x="0" id="image4144"
+              <image sodipodi:absref="D:\New-york New\img\Kv\floor-plan-16-21.jpg" xlink:href="\img\Kv\floor-plan-16.jpg" y="0" x="0" id="image4144"
                  style="image-rendering:optimizeQuality;fill:#000000;fill-opacity:0.1396648" preserveAspectRatio="none" height="1237.5" width="1000" />
                <a xlink:href="6-1-rooms-1e-type/">
                  <path id="path4146" d="m 653.80694,771.0847 151.06903,0 0,156.02211 -141.16286,0 0,-55.30943 -9.90617,0 z" />
@@ -303,10 +315,149 @@
               <a xlink:href="19-2-rooms-2d-type/">
               <path id="path4166" d="m 456.50914,184.14437 0,126.30362 -21.46336,0 0,65.21559 -106.49128,0 0,-58.61148 -36.32261,0 0,-132.90773 z"/>
             </a>
-            </svg>
+            </svg> -->
+			<!-- my svg new map floor 16-->
+			<svg height="994" viewBox="0 0 800 994" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <image height="994" preserveAspectRatio="none" width="800" xlink:href="\img\Kv\floor-plan-16.jpg" style="pointer-events: none;" />
+        <g fill="none" stroke="#000">
+		  <a xlink:href="kv-178-3v-3-1-2/" class="flats_links" >
+          <path d="m95.336478 292.26101-1.562893-45.3239 28.132075-4.68868-4.68868-79.70755 239.12264-1.56289 1.5629 84.39622-21.88051 6.25158 3.12579 42.19811z"/>
+          </a>
+		  <a xlink:href="kv-177-3a-3-1-1/" class="flats_links" >
+		  <path d="m95.336478 312.57862 3.125786 45.3239h21.880506l1.56289 82.83333 167.22956 3.12579 3.12579 26.56918h21.8805l1.56289-23.4434 21.88051-1.56289 4.68867-93.77359h-132.84591l-1.56289-39.07232z"/>
+          </a>
+		  <a xlink:href="kv-181-4v-2-1-11-12/" class="flats_links" >
+		  <path d="m381.34591 617.34277-1.56289 56.26415 76.58176 281.32075h53.13836l1.5629-89.0849-32.82076-4.68868 3.12579-195.36164h-23.4434l-10.94025-46.88679z"/>
+          </a>
+		  <a xlink:href="kv-179-3b-1-1-9-10/" class="flats_links" >
+		  <path d="m528.25786 626.72013 6.25157 175.04402 48.44969 35.94654 48.44969 1.56289v-210.99056z"/>
+			</a>
+          <a xlink:href="kv-180-2a-2-1-10/" class="flats_links" >
+            <path d="m529.82075 851.77673 1.5629 98.46226 70.33019-4.68868v35.94655l32.82075 4.68867-6.25157-128.15723-57.82705-1.56289-10.94025-23.4434-34.38364-1.56289z"/>
+          </a>
+        </g>
+        <style media="screen">
+          .flats_links{
+            pointer-events: all;
+            cursor: pointer;
+          }
+        </style>
+
+      </svg>
+			<!-- my svg new map floor 16-->
 
           </div>
         </div>
+		<div class="row" id="floor1720-div" style="display:none">
+			<div class="section-description floor_desktop">
+			<!-- new map floor 17-20-->
+			<img usemap="#floor1720" src="/img/Kv/floor-plan-17-20.jpg" alt="План 17-20 поверху ЖК NEW YORK Concept House" class="map center-block" />
+				<map name="floor1720" id="floor1720">
+					<area alt="1Е" data-title="1-кімнатна квартира 54,71 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('1|54,71|20,12|3-21')" href="KV-1e-1-1-9/" shape="poly" coords="526, 622, 527, 692, 533, 691, 533, 735, 634, 735, 635, 621" />
+					<area alt="1И" data-title="1-кімнатна квартира 38,05 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('1|38,05|12,33|3-21')" href="KV-1i-1-10/" shape="poly" coords="527, 752, 527, 819, 572, 818, 572, 840, 632, 840, 633, 751" />
+					<area alt="2А" data-title="2-кімнатна квартира 61,14 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|61,14|35,33|3-21')" href="KV-2a-2-1-10/" shape="poly" coords="526, 829, 527, 955, 599, 955, 597, 982, 639, 981, 634, 850, 565, 849, 565, 825" />
+					<area alt="2Б" data-title="2-кімнатна квартира 66,94 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|66,94|36,24|3-21')" href="KV-2b-2-1-11/" shape="poly" coords="397, 754, 456, 954, 518, 955, 517, 859, 486, 861, 485, 751" />
+					<area alt="1К" data-title="1-кімнатна квартира 52,44 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('1|52,44|11,08|3-21')" href="KV-1k-1-1-12/" shape="poly" coords="376, 611, 376, 682, 396, 736, 486, 735, 486, 660, 458, 661, 457, 632, 451, 632, 451, 610" />
+					<area alt="2Л" data-title="2-кімнатна квартира 48,10 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|48,10|17,82|3-21')" href="KV-1l-3-1-1/" shape="poly" coords="240, 450, 238, 385, 263, 384, 263, 350, 341, 349, 341, 450, 313, 449, 314, 460, 318, 472, 290, 471, 291, 460, 296, 458, 296, 449" />
+					<area alt="2Ж" data-title="2-кімнатна квартира 78,11 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|78,11|41,31|3-21')" href="KV-2j-3-1-1/" shape="poly" coords="91, 308, 91, 362, 117, 362, 116, 450, 230, 449, 230, 374, 253, 376, 254, 349, 207, 348, 210, 307" />
+					<area alt="2Д" data-title="2-кімнатна квартира 68,39 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|68,39|33,31|3-21')" href="KV-2d-3-1-2/" shape="poly" coords="240, 156, 238, 256, 267, 255, 267, 301, 344, 299, 344, 262, 329, 264, 328, 249, 361, 252, 360, 155" />
+					<area alt="2Е" data-title="2-кімнатна квартира 84,52 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|84,52|44,9|3-21')" href="KV-2e-3-1-2/" shape="poly" coords="116, 156, 115, 249, 91, 246, 90, 299, 261, 302, 260, 260, 230, 259, 231, 155" />
+				</map>
+			<!-- end new map floor 17-20-->
+			</div>
+			<div class="one_floor_mob">
+			<!-- my svg new map floor 17-20-->
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 994">
+				<image width="800" height="994" preserveAspectRatio="none" xlink:href="/img/Kv/floor-plan-17-20.jpg" x="0" y="0" style="pointer-events: none;"/>
+				<g fill="none" stroke="#000">
+			<a xlink:href="KV-2e-3-1-2/" class="flats_links" >
+				<path d="m117.22 156.29l1.563 90.65h-23.443l-1.563 50.01 159.42-1.563 1.563-31.26-28.13-1.563-1.563-101.59z"/>
+			</a>
+			<a xlink:href="KV-2d-3-1-2/" class="flats_links" >
+				<path d="m242.25 159.42v92.21l28.13-1.563v45.32l67.2 1.563 1.563-46.887h18.755l-1.563-92.21z"/>
+			</a>
+			<a xlink:href="KV-2j-3-1-1/" class="flats_links" >
+				<path d="m95.34 312.58v42.2l28.13 3.126-3.126 87.52h104.71l1.563-73.46 21.881 1.563v-20.318l-43.761-1.563 1.563-39.07z"/>
+			</a>
+			<a xlink:href="KV-1l-3-1-1/" class="flats_links" >
+				<path d="m242.25 390.72l1.563 53.14 45.32-1.563 1.563 26.569 21.881-1.563-1.563-21.88h26.569l1.563-92.21-73.46-1.563-3.126 39.07z"/>
+			</a>
+			<a xlink:href="KV-1k-1-1-12/" class="flats_links" >
+				<path d="m376.66 614.22l-1.563 65.64 15.629 51.575 92.21 3.126-1.563-68.767-25.01-3.126-3.126-46.887z"/>
+			</a>
+			<a xlink:href="KV-2b-2-1-11/" class="flats_links" >
+				<path d="m403.23 754.88l54.701 193.8 54.701 1.563v-87.52l-29.695-1.563v-106.28"/>
+			</a>
+			<a xlink:href="KV-1e-1-1-9/" class="flats_links" >
+				<path d="m529.82 623.59l3.126 106.28 96.9 4.689v-110.97"/>
+			</a>
+			<a xlink:href="KV-1i-1-10/" class="flats_links" >
+				<path d="m531.38 756.44v56.26l42.2 1.563 1.563 21.88h56.26l-1.563-82.83z"/>
+			</a>
+			<a xlink:href="KV-2a-2-1-10/" class="flats_links" >
+				<path d="m528.26 834.58l1.563 114.09 70.33 4.689v23.443l37.509 1.563-4.689-121.91-71.893-3.126-3.126-20.318z"/>
+			</a>
+				</g>
+			</svg>
+			<!-- end my svg new map floor 17-20-->
+			</div>
+
+		</div>
+		<div class="row" id="floor21-div" style="display:none">
+			<div class="section-description floor_desktop">
+				<!-- new map floor 21-->
+				<img usemap="#floor21" src="/img/Kv/floor-plan-21.jpg" alt="План 21 поверху ЖК NEW YORK Concept House" class="map center-block" />
+					<map name="floor21" id="floor21">
+						<area alt="2В" data-title="2-кімнатна квартира 113,40 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|113,40|26,81|3-21')" href="KV-223-2v-2-1-10/" shape="poly" coords="525, 832, 527, 953, 634, 954, 633, 854, 565, 853, 563, 829" />
+						<area alt="2Д" data-title="2-кімнатна квартира 80,16 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|80,16|17,69|3-21')" href="KV-222-2d-2-1-10/" shape="poly" coords="527, 754, 527, 822, 571, 822, 571, 842, 633, 843, 633, 752" />
+						<area alt="3Б" data-title="3-кімнатна квартира 118,64 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('3|118,64|68,42|3-21')" href="KV-224-3b-2-1-11/" shape="poly" coords="398, 752, 455, 955, 520, 955, 519, 860, 486, 859, 487, 750" />
+						<area alt="2Г" data-title="2-кімнатна квартира 102,84 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|102,84|34,88|3-21')" href="KV-221-2g-1-1-9/" shape="poly" coords="526, 621, 526, 736, 635, 738, 635, 622" />
+						<area alt="2Б" data-title="2-кімнатна квартира 131,64 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|131,64|71,19|3-21')" href="KV-225-2b-1-1-12/" shape="poly" coords="376, 612, 377, 682, 394, 735, 489, 736, 487, 664, 461, 660, 456, 614" />
+						<area alt="2А" data-title="2-кімнатна квартира 85,39 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('2|85,39|16,86|3-21')" href="KV-217-2a-3-1-1/" shape="poly" coords="241, 350, 240, 452, 290, 455, 290, 472, 320, 474, 320, 452, 343, 451, 344, 348" />
+						<area alt="4А" data-title="4-кімнатна квартира 200,77 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('4|200,77|34,04|3-21')" href="KV-218-4a-3-1-1/" shape="poly" coords="92, 309, 93, 362, 118, 363, 116, 451, 229, 453, 230, 346, 211, 347, 209, 309" />
+						<area alt="3А" data-title="3-кімнатна квартира 149,09 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('3|149,09|51,66|3-21')" href="KV-220-3a-3-1-2/" shape="poly" coords="241, 154, 242, 253, 287, 254, 289, 261, 271, 262, 270, 298, 342, 299, 343, 261, 363, 250, 360, 154" />
+						<area alt="5А" data-title="5-кімнатна квартира 199,56 м2" onmouseout="hideApartmentDiv()" onmouseover="showApartmentDiv()" onmousemove="showApartmentInfo('5|199,56|70,96|3-21')" href="KV-219-5a-3-1-2/" shape="poly" coords="115, 155, 116, 247, 91, 247, 91, 300, 262, 301, 262, 261, 233, 262, 231, 155" />
+					</map>
+				<!-- end new map floor 21-->
+				
+			</div>
+			<div class="one_floor_mob">
+			<!-- my svg new map floor 21-->
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 994">
+				<image width="800" height="994" preserveAspectRatio="none" xlink:href="/img/Kv/floor-plan-21.jpg" x="0" y="0" style="pointer-events: none;"/>
+				<g fill="none" stroke="#000">
+			<a xlink:href="KV-219-5a-3-1-2/" class="flats_links" >
+				<path d="m116.18 155.76v88.24h-23.529l1.471 51.47 164.71 2.941v-36.765l-26.471-1.471-2.941-104.41z"/>
+			</a>
+			<a xlink:href="KV-220-3a-3-1-2/" class="flats_links" >
+				<path d="m244.12 160.18v86.76l39.706 1.471 1.471 11.765-8.824 1.471v33.824h61.765l1.471-45.588 19.12 1.471v-94.12z"/>
+			</a>
+			<a xlink:href="KV-218-4a-3-1-1/" class="flats_links" >
+				<path d="m95.59 311.65v45.588l22.06 1.471 1.471 88.24h107.35v-94.12h-19.12v-41.18z"/>
+			</a>
+			<a xlink:href="KV-217-2a-3-1-1/" class="flats_links" >
+				<path d="m242.65 352.82v92.65l45.588 2.941-1.471 22.06 33.824 2.941v-22.06l23.529-1.471-2.941-98.53z"/>
+			</a>
+			<a xlink:href="KV-225-2b-1-1-12/" class="flats_links" >
+				<path d="m379.41 613.12l-2.941 70.59 19.12 51.47 88.24 1.471-1.471-76.47h-20.588l-7.353-47.06z"/>
+			</a>
+			<a xlink:href="KV-224-3b-2-1-11/" class="flats_links" >
+				<path d="m400 752.82l57.35 201.47 58.824-1.471-1.471-86.76-29.412-2.941v-105.88"/>
+			</a>
+			<a xlink:href="KV-223-2v-2-1-10/" class="flats_links" >
+				<path d="m525 830.76l5.882 122.06 100 1.471v-97.06l-72.06-4.412v-16.176z"/>
+			</a>
+			<a xlink:href="KV-222-2d-2-1-10/" class="flats_links" >
+				<path d="m527.94 757.24l-1.471 55.882 44.12 4.412 4.412 19.12 58.824 2.941v-83.82z"/>
+			</a>
+			<a xlink:href="KV-221-2g-1-1-9/" class="flats_links" >
+				<path d="m526.47 621.94l5.882 113.24 100 4.412v-113.24z"/>
+			</a>
+				</g>
+			</svg>
+			<!-- end my svg new map floor 21-->
+			</div>
+		</div>
         <div class="section_text">
           <p>Володійте унікальною квартирою, насолоджуйтесь свободою вибору і змінюйтесь разом з ЖК NEW YORK Concept House.</p>
           <p>

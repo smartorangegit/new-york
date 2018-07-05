@@ -42,8 +42,14 @@
   text-align: center;
   box-sizing: border-box;
   padding-top: 20px;
-  margin: 20px auto;
+  margin: 65px auto; /* 20px auto; */
+ 
 }
+
+._building_title {
+  margin-top: 0;
+}
+
 .building_round span{
   font-size: 60px;
   display: block;
