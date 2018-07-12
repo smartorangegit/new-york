@@ -4,9 +4,58 @@ body, html {
 /*//contacts */
 
 .section_contact{
-  /*height: 1000px;*/
+  height: auto;
   min-height: 100%;
   padding-top: 130px;
+  padding-bottom: 90px;
+}
+.section_contact .wrapper{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+.section_contact .tabs{
+  background-color: rgba(0,0,0,0.3);
+  height: 52px;
+}
+.section_contact .tabs .tab a{
+  color: #222222;
+  font-size: 18px;
+}
+.section_contact input[type=name],
+.section_contact input[type=text],
+.section_contact input[type=tel],
+.section_contact input[type=submit] {
+  width: 100%;
+}
+.rieltor{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.rieltor input.rieltor__input{
+  width: 48%;
+}
+#footer_callback_form_phone {
+    width: 48%;
+}
+.contact_form{
+  width: 580px;
+  height: auto;
+  padding: 40px;
+}
+.contact_info{
+  width: 580px;
+  padding: 40px;
+}
+.contact_form .form_name{
+  margin-top: 30px;
+}
+.section_contact .tabs .indicator {
+  background-color: #444444;
 }
 
 /*o-nas*/

@@ -29,46 +29,81 @@
         <div class="trigger-0"></div>
         <div class="section_name"><h1 style="background: #FAF8F6;padding:0 10px; opacity: 0.7;display: inline;">Контакти</h1></div>
         <div data-wow-delay="0.5ms" class="contact_form wow bounceInLeft">
-          <div class="form_name">
-          Щоб отримати додаткову інформацію,
-            <span>
-              будь ласка, зв&prime;яжіться із нами:
-            </span>
+
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s6"><a class="active" href="#form1">Для покупців</a></li>
+                <li class="tab col s6"><a  href="#form2">Для рієлторів</a></li>
+              </ul>
+            </div>
+            <div id="form1" class="col s12">
+              <div class="form_name">
+                Щоб отримати додаткову інформацію,
+                <span>
+                  будь ласка, зв&prime;яжіться із нами:
+                </span>
+              </div>
+              <form id="cont" class="custom_page_callback_form" action="<?php  $_SERVER['DOCUMENT_ROOT'] ?>/application.php" method="post">
+                <input type="text" name="name" value="" placeholder="Ваше і&prime;мя" id="yourName">
+                <input type="tel" name="tel" value="" placeholder="Номер телефону" id="yourPhone" required class="custom_page_callback_form_phone">
+                <textarea tabindex="4" onkeyup="javascript:countme();" rows="8" cols="80" placeholder="Текст повідомлення"></textarea>
+                <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
+                <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
+                <input  name="inn" class="userInn" type="hidden" value="New-York callback"/>
+                <input  name="language"type="hidden" value="<?= $language; ?>">
+                <?//<div class="not" id="reCaptcha2"></div>?>
+                <input class="button" type="submit" name="" value="Надіслати">
+              </form>
+              <script type="text/javascript">
+              var ct = 0;
+              var addCount = document.createElement('input');
+              addCount.type = "hidden";
+              addCount.id = "count";
+              addCount.name = "count";
+              addCount.value = "0";
+              document.getElementById('cont').appendChild(addCount);
+              function countme() {
+                document.getElementById('count').value = ++ct;
+              }
+              </script>
+            </div>
+
+
+            <div id="form2" class="col s12">
+
+              <div class="form_name">
+                Співпраця для <br>
+                рієлторів
+              </div>
+
+              <form id="form" class="rieltor" action="/application.php" method="post">
+                <input name="name_an"  class="rieltor__input" type="text" id="footer_callback_form_name" placeholder="Назва АН" required>
+                <input name="name" class="rieltor__input footer_callback_form_name" type="text" value="" class="footer_callback_form_name" placeholder="Ваше ім&prime;я" required>
+                <input name="email" class="rieltor__input" type="text"value="" id="footer_callback_form_name" placeholder="Email" required>
+                <input name="tel" class="rieltor__input" type="tel" value="" placeholder="Номер телефону" required id="footer_callback_form_phone" required>
+                <textarea tabindex="4" class="rieltor__input" onkeyup="javascript:countme2();" rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
+
+                <input  name="typ" class="webad" type="hidden" value="8" >
+                <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
+                <input  name="metka" class="metka" type="hidden" value="Сотрудничество для риелторов - New-York"/>
+                <input  name="inn" class="userInn" type="hidden" value="New-York"/>
+                <input  name="language"type="hidden" value="<?= $language; ?>">
+                <input class="button footer_callback_form_name" type="submit" name="" value="Надіслати">
+              </form>
+            </div>
+
           </div>
-            <form id="cont" class="custom_page_callback_form" action="<?php  $_SERVER['DOCUMENT_ROOT'] ?>/application.php" method="post">
-              <input type="text" name="name" value="" placeholder="Ваше і&prime;мя" id="yourName">
-              <input type="tel" name="tel" value="" placeholder="Номер телефону" id="yourPhone" required class="custom_page_callback_form_phone">
-              <textarea tabindex="4" onkeyup="javascript:countme();" rows="8" cols="80" placeholder="Текст повідомлення"></textarea>
-              <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
-              <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
-              <input  name="inn" class="userInn" type="hidden" value="New-York callback"/>
-              <input  name="language"type="hidden" value="<?= $language; ?>">
-              <?//<div class="not" id="reCaptcha2"></div>?>
-              <input class="button" type="submit" name="" value="Надіслати">
-            </form>
-            <script type="text/javascript">
-                var ct = 0;
-                var addCount = document.createElement('input');
-                addCount.type = "hidden";
-                addCount.id = "count";
-                addCount.name = "count";
-                addCount.value = "0";
-                document.getElementById('cont').appendChild(addCount);
-                function countme() {
-                    document.getElementById('count').value = ++ct;
-                }
-            </script>
         </div>
+
         <div class="contact_info form_name wow bounceInRight" data-wow-delay="0.5ms">
           <span>Відділ продажу</span>
          (044)<a style="color: black;" class="ringo-phone" href="tel:0444980100"><span class="ringo-phone">498-01-00</span></a>
           <p>Київ, вул.Антоновича, 74</p>
           <p>Пн-пт: 9.00 - 19.00</p>
-          <p>Сб: 10.00 - 18.00</p>
-          <p>Нд: 10.00 - 18.00</p>
+          <p>Сб-нд: 10.00 - 18.00</p>
           <span>Відділ післяпродажного обслуговування:</span>
-          <p>(044) 4940400</p>
-          <p>(067) 6167538 </p>
+          <p>(044) 4940400   (067) 6167538</p>
           <p>Пн-пт: 9.00 - 18.00</p>
           <p>Сб: 10.00 - 18.00</p>
           <p>Нд: вихідний</p>
@@ -77,85 +112,33 @@
           <span>Відділ маркетингу</span>
           <p>marketing@saga-development.com.ua </p>
         </div>
-
-        <div class="rieltor_box">
-          <a class="button button waves-effect btn" id="rieltor_box_link" href="http://riverside.net.ua/agent/">Співпраця для рієлторів</a>
-        </div>
-
-        <div class="callback_overlay"></div>
-        <div class="callback-rieltor__modal">
-          <div class="callback_inner">
-            <div class="callback_close"><img src="/img/icons/close_b.svg" alt="close" width="40"></div>
-            <div class="form_name">
-                Співпраця для рієлторів
-              </div>
-
-                <form id="form" class="rieltor" action="/application.php" method="post">
-                  <input name="name_an"  class="rieltor__input" type="text" id="footer_callback_form_name" placeholder="Назва АН" required>
-                  <input name="name" class="rieltor__input footer_callback_form_name" type="text" value="" class="footer_callback_form_name" placeholder="Ваше ім&prime;я" required>
-                  <input name="email" class="rieltor__input" type="text"value="" id="footer_callback_form_name" placeholder="Email" required>
-                  <input name="tel" class="rieltor__input" type="tel" value="" placeholder="Номер телефону" required id="footer_callback_form_phone" required>
-                  <textarea tabindex="4" class="rieltor__input" onkeyup="javascript:countme2();" rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
-				  
-				  <input  name="typ" class="webad" type="hidden" value="8" >                 
-				  <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
-                  <input  name="metka" class="metka" type="hidden" value="Сотрудничество для риелторов - New-York"/>
-                  <input  name="inn" class="userInn" type="hidden" value="New-York"/>
-                  <input  name="language"type="hidden" value="<?= $language; ?>">
-                  <input class="button footer_callback_form_name" type="submit" name="" value="Надіслати">
-                </form>
-     
-          </div>
-
-        <style>
-        .rieltor_box{  float: left;  max-width: 760px;  width: 100%;  margin-top: 30px;  background: rgba(255,255,255,0.9);}
-
-          ::-webkit-input-placeholder {
-            color: #000 ;
-            opacity: 1;
-          }
-          ::-moz-placeholder { 
-            color: #000 ;
-            opacity: 1;
-          }
-          :-ms-input-placeholder { 
-            color: #000 ;
-            opacity: 1;
-          }
-          :-moz-placeholder {
-            color: #000 ;
-            opacity: 1;
-          }
+      </div>
+    </div>
 
 
+
+
+
+
+      <style>
+          ::-webkit-input-placeholder {color: #000 ;}
+          ::-moz-placeholder {color: #000 ;}
+          :-ms-input-placeholder {color: #000 ;}
+          :-moz-placeholder {color: #000 ;}
         @media only screen and (max-width: 1180px){
-          .callback-rieltor__modal {
-              width: 300px;
-              height: 500px;
-              padding: 24px 16px;
-            }
-
           #footer_callback_form_phone {
             width: 255px;
             height: 48px;
             padding: 0;
           }
-
           .footer_callback_form_name {
             width: 255px;
             height: 48px;
             padding: 0;
           }
         }
+      </style>
 
-        @media only screen and (max-width: 767px){
-          .section_contact {height: 1310px;}
-          .rieltor_box a{padding: 0; margin: 0;}
-        }
-        </style>
-
-      </div>
-    </div>
     <!-- ======= end section contact====== -->
     <style media="screen">
       @media only screen and (max-width:768px) {
@@ -166,9 +149,15 @@
     <script src="https://use.fontawesome.com/8f277e411d.js"></script>
     <script src="/js/wow.min.js"></script>
     <script src="/js/jquery.easing.js" type="text/javascript"></script>
-    <script src="/js/jquery.bxslider.js"></script>
-    <script src="/js/jquery.fancybox.js"></script>
+    <!-- <script src="/js/jquery.bxslider.js"></script> -->
+    <!-- <script src="/js/jquery.fancybox.js"></script> -->
     <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('.tabs').tabs();
+  });
+
+    </script>
     <script type="text/javascript" src="/js/TweenMax.min.js"></script>
     <script type="text/javascript" src="/js/ScrollMagic.js"></script>
     <script type="text/javascript" src="/js/animation.gsap.min.js"></script>
