@@ -34,7 +34,7 @@
             <div class="col s12">
               <ul class="tabs">
                 <li class="tab col s6"><a href="#form1">Для покупців</a></li>
-                <li class="tab col s6"><a href="#form2">Для рієлторів</a></li>
+                <li class="tab col s6"><a href="#form2">Для ріелторів</a></li>
               </ul>
             </div>
             <div id="form1" class="col s12">
