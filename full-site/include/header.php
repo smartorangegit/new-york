@@ -94,6 +94,20 @@ if($pieces[3] == "ru") {
   .hvr-shutter-out-vertical.dropdown-button{
     width:132px!important;
   }
+  .callback_modal form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+  }
+  .callback_modal form input[type=submit] {
+    width: 100%;
+  }
+  #footer_callback_form_phone {
+    width: 100%;
+}
   @media only screen and (max-width:1180px) {
     .hvr-shutter-out-vertical.dropdown-button{
       width:auto!important;

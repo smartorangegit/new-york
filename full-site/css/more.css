@@ -102,12 +102,6 @@ body, html {
   padding-bottom: 90px;
 }
 
-@media only screen and (max-width:1180px) {
-  .one_slider {
-    margin-top: 380px;
-    height: auto;
-}
-}
 .callback_modal form{
   display: flex;
   flex-wrap: wrap;
@@ -118,6 +112,12 @@ body, html {
 }
 .callback_modal form input[type=submit] {
   width: 100%;
+}
+@media only screen and (max-width:1180px) {
+  .one_slider {
+    margin-top: 380px;
+    height: auto;
+}
 }
 @media only screen and (max-width:768px) {
 .contact_form,
