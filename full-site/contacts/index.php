@@ -14,7 +14,7 @@
     <link rel="alternate" hreflang="ua" href="http://new-york.com.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
     <link rel="alternate" hreflang="ru" href="http://new-york.com.ua<?php echo '/ru'.$_SERVER['REQUEST_URI'];?>" />
     <link rel="canonical" href="http://new-york.com.ua<?php echo  $_SERVER['REQUEST_URI'];?>"/>
-	<link rel="shortcut icon" href="/img/icons/favicon.ico">
+	  <link rel="shortcut icon" href="/img/icons/favicon.ico">
     <link href="/css/intlTelInput.css" rel="stylesheet">
     <link href="/css/allstyle.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
@@ -33,8 +33,8 @@
           <div class="row">
             <div class="col s12">
               <ul class="tabs">
-                <li class="tab col s6"><a class="active" href="#form1">Для покупців</a></li>
-                <li class="tab col s6"><a  href="#form2">Для рієлторів</a></li>
+                <li class="tab col s6"><a href="#form1">Для покупців</a></li>
+                <li class="tab col s6"><a href="#form2">Для рієлторів</a></li>
               </ul>
             </div>
             <div id="form1" class="col s12">
@@ -69,21 +69,17 @@
               </script>
             </div>
 
-
             <div id="form2" class="col s12">
-
               <div class="form_name">
                 Співпраця для <br>
-                рієлторів
+                ріeлторів
               </div>
-
               <form id="form" class="rieltor" action="/application.php" method="post">
                 <input name="name_an"  class="rieltor__input" type="text" id="footer_callback_form_name" placeholder="Назва АН" required>
                 <input name="name" class="rieltor__input footer_callback_form_name" type="text" value="" class="footer_callback_form_name" placeholder="Ваше ім&prime;я" required>
                 <input name="email" class="rieltor__input" type="text"value="" id="footer_callback_form_name" placeholder="Email" required>
                 <input name="tel" class="rieltor__input" type="tel" value="" placeholder="Номер телефону" required id="footer_callback_form_phone" required>
                 <textarea tabindex="4" class="rieltor__input" onkeyup="javascript:countme2();" rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
-
                 <input  name="typ" class="webad" type="hidden" value="8" >
                 <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
                 <input  name="metka" class="metka" type="hidden" value="Сотрудничество для риелторов - New-York"/>
@@ -92,7 +88,6 @@
                 <input class="button footer_callback_form_name" type="submit" name="" value="Надіслати">
               </form>
             </div>
-
           </div>
         </div>
 
@@ -115,41 +110,21 @@
       </div>
     </div>
 
-
-
-
-
-
       <style>
           ::-webkit-input-placeholder {color: #000 ;}
           ::-moz-placeholder {color: #000 ;}
           :-ms-input-placeholder {color: #000 ;}
           :-moz-placeholder {color: #000 ;}
-        @media only screen and (max-width: 1180px){
-          #footer_callback_form_phone {
-            width: 255px;
-            height: 48px;
-            padding: 0;
-          }
-          .footer_callback_form_name {
-            width: 255px;
-            height: 48px;
-            padding: 0;
-          }
-        }
+
       </style>
 
     <!-- ======= end section contact====== -->
-    <style media="screen">
-      @media only screen and (max-width:768px) {
-        .section_contact{box-sizing: content-box;}
-      }
-    </style>
+
     <?php include_once('../include/footer.php'); ?>
     <script src="https://use.fontawesome.com/8f277e411d.js"></script>
     <script src="/js/wow.min.js"></script>
     <script src="/js/jquery.easing.js" type="text/javascript"></script>
-    <!-- <script src="/js/jquery.bxslider.js"></script> -->
+    <script src="/js/jquery.bxslider.js"></script>
     <!-- <script src="/js/jquery.fancybox.js"></script> -->
     <script type="text/javascript" src="/js/materialize.min.js"></script>
     <script type="text/javascript">

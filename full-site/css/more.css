@@ -15,18 +15,25 @@ body, html {
   padding: 0 10px;
 }
 .section_contact .tabs{
-  background-color: rgba(0,0,0,0.3);
+  background-color: transparent;
   height: 52px;
 }
 .section_contact .tabs .tab a{
   color: #222222;
+  cursor: pointer;
   font-size: 18px;
+  background-color: rgba(0,0,0,0.15);
 }
 .section_contact input[type=name],
 .section_contact input[type=text],
 .section_contact input[type=tel],
 .section_contact input[type=submit] {
   width: 100%;
+  float: none;
+}
+.custom_page_callback_form .intl-tel-input {
+    /* margin-bottom: 20px; */
+    width: 100%;
 }
 .rieltor{
   display: flex;
@@ -40,15 +47,15 @@ body, html {
   width: 48%;
 }
 #footer_callback_form_phone {
-    width: 48%;
+  width: 100%;
 }
 .contact_form{
-  width: 580px;
+  width: 49%;
   height: auto;
   padding: 40px;
 }
 .contact_info{
-  width: 580px;
+  width: 49%;
   padding: 40px;
 }
 .contact_form .form_name{
@@ -56,6 +63,11 @@ body, html {
 }
 .section_contact .tabs .indicator {
   background-color: #444444;
+  display: none;
+}
+.section_contact .tabs .tab a:hover,
+.section_contact .tabs .tab a.active {
+    background-color: rgba(0,0,0,0.4);
 }
 
 /*o-nas*/
@@ -98,6 +110,20 @@ body, html {
 }
 
 @media only screen and (max-width:768px) {
+.contact_form,
+.contact_info{
+  width: 100%;
+}
+.section_contact {
+  padding-bottom: 140px;
+}
+#footer_callback_form_name {
+    width: 100%;
+}
+.rieltor input.rieltor__input {
+    width: 100%;
+}
+
   .four_render.parallax-container{
     height: 150px;
   }
@@ -122,4 +148,16 @@ body, html {
     height: 800px;
 }
 
+}
+@media only screen and (max-width: 470px) {
+  .contact_form {
+    padding: 10px 0px;
+  }
+  .section_contact .tabs .tab a{
+    font-size: 14px;
+  }
+  .contact_form .form_name {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
 }

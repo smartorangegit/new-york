@@ -15,7 +15,14 @@
 .intl-tel-input {
   position: relative;
   display: inline-block;
-  margin-bottom: -25px; }
+  margin-bottom: 20px;
+  width: 48%;
+ }
+ @media only screen and (max-width: 768px) {
+   .intl-tel-input {
+      width: 100%;
+}
+ }
   .intl-tel-input * {
     box-sizing: border-box;
     -moz-box-sizing: border-box; }
@@ -97,9 +104,10 @@
     .intl-tel-input .country-list .flag-box, .intl-tel-input .country-list .country-name {
       margin-right: 6px; }
   .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
-    padding-right: 6px;
+    padding-right: 0px;
     padding-left: 52px;
-    margin-left: 0; }
+    margin-left: 0;
+  box-sizing: border-box;}
   .intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
     right: auto;
     left: 0; }
