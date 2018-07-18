@@ -546,11 +546,11 @@
               Сотрудничество для <br>
                 риелторов
               </div>
-              <form id="form" class="rieltor" action="/application.php" method="post">
+              <form id="form3" class="rieltor" action="/application.php" method="post">
                 <input name="name_an"  class="rieltor__input" type="text" id="footer_callback_form_name" placeholder="Название АН" required>
                 <input name="name" class="rieltor__input footer_callback_form_name" type="text" class="footer_callback_form_name" placeholder="Ваше имя" required>
                 <input name="email" class="rieltor__input" type="text"value="" id="footer_callback_form_name" placeholder="Email" required>
-                <input name="tel" class="rieltor__input" type="tel" onkeyup="javascript:countme2();"  placeholder="Номер телефона" required id="footer_callback_form_phone" required>
+                <input name="tel" class="rieltor__input" type="tel" onkeyup="javascript:countme3();"  placeholder="Номер телефона" required id="footer_callback_form_phone" required>
                 <textarea tabindex="4"  name="textarea" class="rieltor__input" rows="8" cols="80" placeholder="Текст сообщения" required></textarea>
                 <input  name="typ" class="webad" type="hidden" value="8" >
                 <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>

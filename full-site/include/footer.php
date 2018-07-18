@@ -66,6 +66,7 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
           <script>
               var element1 = document.getElementById('form2');
               var element2 = document.getElementById('form');
+              var element3 = document.getElementById('form3');
               if(!element1) {
               }
               else {
@@ -92,6 +93,20 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
                   document.getElementById('form').appendChild(addCount2);
                   function countme2() {
                       document.getElementById('count2').value = ++ct2;
+                  }
+              }
+              if(!element3) {
+              }
+              else {
+                  var ct3 = 0;
+                  var addCount3 = document.createElement('input');
+                  addCount3.type = "hidden";
+                  addCount3.id = "count3";
+                  addCount3.name = "count3";
+                  addCount3.value = "0";
+                  document.getElementById('form3').appendChild(addCount3);
+                  function countme3() {
+                      document.getElementById('count3').value = ++ct3;
                   }
               }
           </script>

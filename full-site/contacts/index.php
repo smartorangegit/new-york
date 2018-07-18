@@ -45,7 +45,7 @@
                 </span>
               </div>
               <form id="cont" class="custom_page_callback_form" action="<?php  $_SERVER['DOCUMENT_ROOT'] ?>/application.php" method="post">
-                <input type="text" name="name" value="" placeholder="Ваше ім&prime;я" id="yourName">
+                <input type="text" name="name" value="" placeholder="Ваше і&prime;мя" id="yourName">
                 <input type="tel" name="tel" value="" placeholder="Номер телефону" id="yourPhone" required class="custom_page_callback_form_phone">
                 <textarea tabindex="4" onkeyup="javascript:countme();" rows="8" cols="80" placeholder="Текст повідомлення"></textarea>
                 <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
@@ -74,12 +74,12 @@
                 Співпраця для <br>
                 ріeлторів
               </div>
-              <form id="form" class="rieltor" action="/application.php" method="post">
+              <form id="form3" class="rieltor" action="/application.php" method="post">
                 <input name="name_an"  class="rieltor__input" type="text" id="footer_callback_form_name" placeholder="Назва АН" required>
                 <input name="name" class="rieltor__input footer_callback_form_name" type="text" value="" class="footer_callback_form_name" placeholder="Ваше ім&prime;я" required>
                 <input name="email" class="rieltor__input" type="text"value="" id="footer_callback_form_name" placeholder="Email" required>
                 <input name="tel" class="rieltor__input" type="tel" value="" placeholder="Номер телефону" required id="footer_callback_form_phone" required>
-                <textarea tabindex="4" class="rieltor__input" onkeyup="javascript:countme2();" rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
+                <textarea tabindex="4" class="rieltor__input" onkeyup="javascript:countme3();" rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
                 <input  name="typ" class="webad" type="hidden" value="8" >
                 <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
                 <input  name="metka" class="metka" type="hidden" value="Сотрудничество для риелторов - New-York"/>
