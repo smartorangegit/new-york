@@ -45,7 +45,7 @@
                 </span>
               </div>
               <form id="cont" class="custom_page_callback_form" action="<?php  $_SERVER['DOCUMENT_ROOT'] ?>/application.php" method="post">
-                <input type="text" name="name" value="" placeholder="Ваше і&prime;мя" id="yourName">
+                <input type="text" name="name" value="" placeholder="Ваше ім&prime;я" id="yourName">
                 <input type="tel" name="tel" value="" placeholder="Номер телефону" id="yourPhone" required class="custom_page_callback_form_phone">
                 <textarea tabindex="4" onkeyup="javascript:countme();" rows="8" cols="80" placeholder="Текст повідомлення"></textarea>
                 <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
