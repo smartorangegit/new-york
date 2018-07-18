@@ -1,20 +1,22 @@
+<?php include_once('../include/utm.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>ЖК NEW YORK Concept House - новый жилой комплекс в Киеве</title>
+    <title>≡ ЖК NEW YORK Concept House 》 новый жилой комплекс Нью Йорк в Киеве</title>
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="cache-control" content="cache">
     <meta http-equiv="content-language" content="ua">
     <?php include_once('../include/gtm1.php'); ?>
     <meta name="robots" content="index, follow"/>
     <meta name="keywords" content="NEW YORK Concept House, ЖК NEW YORK, ЖК Нью-Йорк, жилой комплекс, Киев, центр, Антоновича, Горького, купить квартиру, новостройка, аппартаменты">
-    <meta name="description" content="ЖК NEW YORK Concept House лучшие традиции американской архитектуры. Отдел продаж: ☎ 044 290 33 90, Адрес г.Киев, ул.Антоновича 74/78">
+    <meta name="description" content="【NEW YORK Concept House】Американское качество - Украинская цена в центре столицы! ... ✅【NEW YORK】7 минут пешком до ближайших 2х станций метро, 20 минут до Крещатика ...  ✅【NEW YORK】Бульвар во дворе, уютный сад, две детских и одна баскетбольная площадки! ✅【NEW YORK】- это частичка Манхэттена в украинской столице!">
 	<link rel="alternate" hreflang="ru" href="http://new-york.com.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
     <link rel="alternate" hreflang="ua" href="http://new-york.com.ua" />
     <link rel="canonical" href="http://new-york.com.ua<?php echo  $_SERVER['REQUEST_URI'];?>"/>
     <script src="https://use.fontawesome.com/8f277e411d.js"></script>
     <link rel="shortcut icon" href="/img/icons/favicon.ico">
+    <link href="/css/intlTelInput.css" rel="stylesheet">
     <link href="/css/allstyle.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/more.css" rel="stylesheet">
@@ -26,115 +28,6 @@
     <!-- =========header========= -->
     <?php include_once('../include/gtm2.php'); ?>
     <?php include_once('include/header.php'); ?>
-    <!-- ======section video======= -->
-    <div class="video_container">
-      <div class="video__box">
-        <video class="video_desk" autoplay loop muted class="main-video-bg">
-          <source src="/SAGA_NEW YORK.mp4" type="video/mp4">
-        </video>
-        <video  class="is__mobile" src="/SAGA_NEW YORK.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' playsinline loop muted autoplay controls></video>
-      </div>
-      <div class="sound">
-        <img id="sound_on" onclick="sound_off ()" src="/img/sound_on.svg" style="display:none;">
-        <img id="sound_off" onclick="sound_on ()" src="/img/sound_off.svg" style="display:block;">
-      </div>
-      <div class="arrow_dance">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#000000" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-        <g><path d="M500,755.9L14.7,270.6c-6.2-6.2-6.2-15.6,0-21.8c6.2-6.2,15.6-6.2,21.8,0L500,712.3l463.6-463.6c6.2-6.2,15.6-6.2,21.8,0c6.2,6.2,6.2,15.6,0,21.8L500,755.9z"/></g>
-        </svg>
-
-      </div>
-      <style media="screen">
-      .video_container{position: relative; display:none;}
-      .is__mobile{display: none;}
-      video{
-        width: 100%;
-        margin-bottom: -3px;
-        }
-      .sound{
-        position: absolute;
-        left: 30px;
-        top: 90%;
-        margin-top: -100px;
-      }
-      .sound img{  width: 40px;}
-      .arrow_dance{
-        width: 60px;
-        position: absolute;
-        left: 50%;
-        top: 90%;
-        margin-top: -100px;
-        margin-left: -30px;
-        -webkit-animation: bounce 2s infinite;
-        animation: bounce 2s infinite;
-      }
-      @-webkit-keyframes bounce {
-         0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);
-           transform: translateX(0);}
-         40% {-webkit-transform: translateY(-30px);
-           transform: translateY(-30px);}
-         60% {-webkit-transform: translateY(-15px);
-           transform: translateY(-15px);}
-       }
-       @-moz-keyframes bounce {
-         0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-         40% {transform: translateY(-30px);}
-         60% {transform: translateY(-15px);}
-       }
-       @keyframes bounce {
-         0%, 20%, 50%, 80%, 100% {-ms-transform: translateY(0);
-           transform: translateY(0);}
-         40% {-ms-transform: translateY(-30px);
-           transform: translateY(-30px);}
-         60% {-ms-transform: translateY(-15px);
-           transform: translateY(-15px);}
-       }
-     @media only screen and (min-width: 1368px) {
-         video{width: 100%;}
-       }
-    @media only screen and (max-width: 768px) {
-        .video_container{
-          margin-top: 50px;
-          height: auto;
-        }
-        .is__mobile{
-          display: block;
-          width: 100%;
-          height: auto;
-        }
-        .video_desk{display: none;}
-        .sound{display: none;}
-        .arrow_dance{display: none;}
-        video{margin: 0;}
-      }
-      </style>
-      <script>
-
-      function sound_on () {
-        var video = document.querySelector("video");
-        var sound_on = document.getElementById("sound_on");
-        var sound_off = document.getElementById("sound_off");
-        video.removeAttribute("muted");
-        video.muted = false;
-        sound_on.setAttribute("style", "display:block;");
-        sound_off.setAttribute("style", "display:none;");
-        }
-      function sound_off () {
-        var video = document.querySelector("video");
-        var sound_on = document.getElementById("sound_on");
-        var sound_off = document.getElementById("sound_off");
-        video.muted = true;
-        sound_on.setAttribute("style", "display:none;");
-        sound_off.setAttribute("style", "display:block;");
-        }
-
-
-
-      </script>
-
-    </div>
-
-    <!-- ======end section video======= -->
     <!-- ======section one======= -->
     <div class="section_one">
       <div class="wrapper">
@@ -249,7 +142,7 @@
     <div class="section_four">
       <div class="four_render parallax-container">
         <h2 class="section_name">Инфраструктура</h2>
-         <div class="parallax"><img <?LazyLoad("/img/frontDownNY.jpg");?>    alt="ЖК New York (Нью-Йорк) Concept House Киев - фронтальний вид"></div>
+         <div class="parallax"><img src="/img/frontDownNY.jpg"    alt="ЖК New York (Нью-Йорк) Concept House Киев - фронтальний вид"></div>
     </div>
       <div class="four_info">
         <div class="wrapper">
@@ -291,14 +184,14 @@
     <div class="section_five">
       <div class="parallax-container">
         <div class="section_name">
-          <h2 class="section_name">Вид с Вашего окна</h2>
+          <h2 class="section_name">Вид из Вашего окна</h2>
           <a href="/ru/panorama/">
             <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==  data-src="/img/360.png" alt="ЖК NEW YORK (Нью-Йорк) Concept House Киев - панорамний вид на 360 градусов"/>
             <!-- <img src="/img/360.png" alt="panorama"> -->
           </a>
         </div>
         <div class="parallax">
-          <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==  data-src="/img/ny360.jpg" alt="ЖК NEW YORK (Нью-Йорк) Concept House Киев - панорамний вид на 360 градусов"/>
+          <img class="b-lazy" src="/img/ny360.jpg"  data-src="/img/ny360.jpg" alt="ЖК NEW YORK (Нью-Йорк) Concept House Киев - панорамний вид на 360 градусов"/>
           <!-- <img src="/img/ny360.jpg" alt="ЖК New York (Нью-Йорк) Concept House Киев - панорамний вид на 360 градусов"></div> -->
       </div>
     </div>
@@ -368,10 +261,10 @@
       <div class="wrapper">
         <h2 class="section_name">Застройщик</h2>
         <div class="section_text">
-          Девелопером ЖК NEW YORK Concept House является компания <a href="http://www.riverside-development.ua" target="_blank" style="color:black; text-decoration:underline;">Riverside Development</a> известная такими жилыми проектами в Киеве,
+          Девелопером ЖК NEW YORK Concept House является компания <a href="http://saga-development.com.ua/" target="_blank" style="color:black; text-decoration:underline;">SAGA Development</a> известная такими жилыми проектами в Киеве,
           как жилой район RYBALSKY, Chicago Central House, Einstein Concept House и BRISTOL Comfort House. Застройщиком и генподрядчиком
           выступает KDD Engineering, инвестором и заказчиком объекта &minus; ООО «Оболоньторгстандарт». Строительство ведется в партнерстве с
-          группой компаний «ХК Киевгорстрой» &minus; надежным застройщиком с 60-летним опытом и богатым портфолио.
+          группой компаний ХК «Киевгорстрой» &minus; надежным застройщиком с 60-летним опытом и богатым портфолио.
         </div>
 
          <div class="developer_logo clearfix">
@@ -380,36 +273,34 @@
         </div>
 
         <h2 class="section_name">Другие проекты застройщика</h2>
-  		<div class="developer_logo clearfix">
-  		  <a href="https://rybalsky.com.ua/">
-          <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==  data-src="/img/rybalsky-logo-.svg" alt="RYBALSKY space for living"  title="RYBALSKY space for living" style="width: 160px;"/>
-          <!-- <img src="img/rybalsky-logo-.svg" alt="RYBALSKY space for living"  title="RYBALSKY space for living" style="width: 200px;"> -->
-        </a>
-  		  <a href="https://bristol.house">
-          <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==  data-src="/img/BRISTOL_logo.svg" alt="BRISTOL comfort house" title="BRISTOL comfort house" style="width: 160px;"/>
-          <!-- <img src="img/BRISTOL_logo.svg" alt="BRISTOL Comfort House" title="BRISTOL Comfort House" style="width: 200px;"> -->
-        </a>
-  		  <a href="http://einstein.house/">
-          <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==  data-src="/img/EINSTEIN-logo-blue.svg" alt="EINSTEIN concept house" title="EINSTEIN concept house" style="width: 160px;"/>
-          <!-- <img src="img/EINSTEIN-logo-blue.svg" alt="EINSTEIN concept house" title="EINSTEIN concept house" style="width: 200px;"> -->
-        </a>
-  		  <a href="https://chicago.kiev.ua/">
-          <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==  data-src="/img/Chikago.svg" alt="CHICAGO central HOUSE" title="CHICAGO central HOUSE" style="width: 160px;"/>
-          <!-- <img src="/img/Chikago.svg" alt="CHICAGO central HOUSE" title="CHICAGO central HOUSE" style="width: 200px;"> -->
-        </a>
-        <a href="http://sanfrancisco.com.ua/" target="_blank"><img src="/img/logoSanFr.svg" alt="SAN FRANCISCO Creative House" title="SAN FRANCISCO Creative House" style="width: 160px; margin-bottom:20px;"/></a>
-  		  </div>
+        <div class="developer_logo clearfix">
+          <ul class="developer_logo-bxslider">
+            <li class="developer_logo__item developer_logo__item-rybalsky"><a href="https://rybalsky.com.ua/"><img src="/img/rybalsky-logo-.svg" alt="RYBALSKY"></a></li>
+            <li class="developer_logo__item developer_logo__item-bristol"><a href="https://bristol.house"><img src="/img/BRISTOL_logo.svg" alt="BRISTOL"></a></li>
+            <li class="developer_logo__item developer_logo__item-einstein"><a href="http://einstein.house/"><img src="/img/EINSTEIN-logo-blue.svg" alt="EINSTEIN"></a></li>
+            <li class="developer_logo__item developer_logo__item-chicago"><a href="https://chicago.kiev.ua/"><img src="/img/Chikago.svg" alt="CHICAGO"></a></li>
+            <li class="developer_logo__item developer_logo__item-sanfrancisco"><a href="http://sanfrancisco.com.ua/"><img src="/img/sanfrancisco_logo_b.png" alt="SANFRANCISCO"></a></li>
+            <li class="developer_logo__item developer_logo__item-kandinskiy"><a href="http://kandinsky-residence.com.ua/"><img src="/img/kandinsky_logo.svg"  alt="Kandinskiy"></a></li>
+            <li class="developer_logo__item developer_logo__item-resident"><a href="http://resident.house/"><img src="/img/resident_logo_color.svg" alt="Resident"></a></li>
+          </ul>
+        </div>
 
         <h3 class="section_name wow fadeIn">Правовая информация</h3>
         <div class="section_text wow fadeIn">
           Вы можете быть уверены в законности строительства ЖК NEW YORK Concept House &minus; мы имеем всю необходимую разрешительную документацию и
-          строго придерживаемся норм действующего законодательства Украины. Земельный участок по адресу ул. Антоновича, 74-78, где возводится жилой
+          строго придерживаемся норм действующего законодательства Украины. Земельный участок по адресу ул. Антоновича, 74, где возводится жилой
           комплекс, принадлежит Генеральной прокуратуре Украины. Между Генпрокуратурой и ООО «Оболоньторгстандарт» составлен договор о долевом участии
           в возведении жилого дома. «Оболоньторгстандарт» полностью выполнила все обязательства перед Генпрокуратурой за счет передачи недвижимости в
           других строительных проектах, поэтому вы можете быть спокойны &minus; наше строительство абсолютно законно и юридически безопасно.
         </div>
 
         <div class="document clearfix">
+          <div class="document_item wow fadeIn">
+            <a href="/img/docs/sertifikat-shho-zasvidchue1-b.jpg" data-fancybox="group5" data-caption="Сертификат, подтверждающий соответствие законченного объекта проектной документации">
+              <img src="/img/docs/sertifikat-shho-zasvidchue-1.jpg" alt="Документи на землю ЖК NEW YORK Concept House">
+            </a>
+            <p>Сертификат, подтверждающий соответствие законченного объекта проектной документации</p>
+          </div>
           <div class="document_item wow fadeIn">
             <a href="/img/docs/land_vityag1_b.jpg" data-fancybox="group" data-caption="Выдержка из госреестра, Акт постоянного пользования земельным участком и распоряжение об изменении целевого назначения">
               <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==  data-src="/img/docs/land_vityag1.jpg" alt="Документи на землю ЖК NEW YORK Concept House"/>
@@ -452,7 +343,7 @@
         <div class="section_text">
           Профессионалы своего дела трудятся над строительством нашего жилого комплекса, а в ходе работ используются самые современные технологии
           строительства. Мы тщательно следим за соблюдением всех строительных норм и требований. Мы используем только экологические материалы, безопасные
-          для вашего здоровья. Сдача объекта запланирована на 3 квартал 2017 года. Закладка фундамента была выполнена в феврале 2016 года.
+          для вашего здоровья. Дом был введен в эксплуатацию в I квартале 2018 года. Закладка фундамента была выполнена в феврале 2016 года.
         </div>
         <a class="button waves-effect btn" href="/ru/process/">Ход строительства</a>
       </div>
@@ -468,70 +359,144 @@
       <div class="slider1">
           <a class="slide" data-fancybox="group4" href="/img/gal/1b.jpg"><img <?LazyLoad("/img/gal/1.jpg");?>  ></a>
           <a class="slide" data-fancybox="group4" href="/img/gal/2b.jpg"><img  <?LazyLoad("/img/gal/2.jpg");?> ></a>
-          <!-- <a class="slide" data-fancybox="group4" href="/img/gal/3b.jpg"><img  <?LazyLoad("/img/gal/3.jpg");?> ></a> -->
-			    <a class="slide" data-fancybox="group4" href="/img/gal/4b.jpg"><img <?LazyLoad("/img/gal/4.jpg");?>  ></a>
-         <!-- <a class="slide" data-fancybox="group4" href="/img/gal/5b.jpg"><img <?/* LazyLoad("/img/gal/5.jpg"); */?> ></a> -->
-          <!--<a class="slide" data-fancybox="group4" href="/img/gal/6b.jpg"><img <?/* LazyLoad("/img/gal/11.jpg"); */?> ></a> -->
-          <a class="slide" data-fancybox="group4" href="/img/gal/7b.jpg"><img  <?LazyLoad("/img/gal/7.jpg");?> >
-          </a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/8b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/8.jpg" ></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/9b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/9.jpg" ></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/10b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/10.jpg" ></a>
-          <!--<a class="slide" data-fancybox="group4" href="/img/gal/11b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/6.jpg"></a>-->
-		      <a class="slide" data-fancybox="group4" href="/img/gal/12b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/12.jpg"></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/13b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/13.jpg"></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/14b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/14.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/15b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/15.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/16b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/16.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/17b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/17.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/18b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/18.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/19b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/19.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/20b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/20.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/21b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/21.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/22b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/22.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/23b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/23.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/24b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/24.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/25b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/25.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/26b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/26.jpg"></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/27b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/27.jpg"></a>
+          <!-- <a class="slide" data-fancybox="group4" href="/img/gal/3b.jpg"><img  <?/*LazyLoad("/img/gal/3.jpg");*/?> ></a> -->
+		  <a class="slide" data-fancybox="group4" href="/img/gal/4b.jpg"><img <?LazyLoad("/img/gal/4.jpg");?>  ></a>
+         <!-- <a class="slide" data-fancybox="group4" href="/img/gal/5b.jpg"><img <?/* LazyLoad("/img/gal/5.jpg"); */?> ></a>-->
+          <!--<a class="slide" data-fancybox="group4" href="/img/gal/6b.jpg"><img <?/* LazyLoad("/img/gal/6.jpg"); */?> ></a>-->
+          <a class="slide" data-fancybox="group4" href="/img/gal/7b.jpg"><img <?LazyLoad("/img/gal/7.jpg");?> ></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/8b.jpg"><img <?LazyLoad("/img/gal/8.jpg");?> ></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/9b.jpg"><img <?LazyLoad("/img/gal/9.jpg");?> ></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/10b.jpg"><img <?LazyLoad("/img/gal/10.jpg");?> ></a>
+          <!--<a class="slide" data-fancybox="group4" href="/img/gal/11b.jpg"><img <?/* LazyLoad("/img/gal/11.jpg"); */?>></a>-->
+		  <a class="slide" data-fancybox="group4" href="/img/gal/12b.jpg"><img <?LazyLoad("/img/gal/12.jpg");?>></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/13b.jpg"><img <?LazyLoad("/img/gal/13.jpg");?>></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/14b.JPG"><img <?LazyLoad("/img/gal/14.JPG");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/15b.jpg"><img <?LazyLoad("/img/gal/15.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/16b.jpg"><img <?LazyLoad("/img/gal/16.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/17b.jpg"><img <?LazyLoad("/img/gal/17.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/18b.jpg"><img <?LazyLoad("/img/gal/18.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/19b.jpg"><img <?LazyLoad("/img/gal/19.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/20b.jpg"><img <?LazyLoad("/img/gal/20.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/21b.jpg"><img <?LazyLoad("/img/gal/21.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/22b.jpg"><img <?LazyLoad("/img/gal/22.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/23b.jpg"><img <?LazyLoad("/img/gal/23.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/24b.jpg"><img <?LazyLoad("/img/gal/24.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/25b.jpg"><img <?LazyLoad("/img/gal/25.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/26b.jpg"><img <?LazyLoad("/img/gal/26.jpg");?>></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/27b.jpg"><img <?LazyLoad("/img/gal/27.jpg");?>></a>
       </div>
     </div>
     <!-- ========== end section gallery=============== -->
-
-    <!-- ========== section contact=============== -->
-    <!-- <div class="section_contact">
-      <div class="wrapper">
-        <h3 class="section_name"><span style="background: #FAF8F6;padding:0 10px; opacity: 0.7;">Узнать цену</span></h3>
-        <div data-wow-delay="0.5ms" class="contact_form wow bounceInLeft">
-          <div class="form_name">
-            Чтобы получить дополнительную информацию,
-            <span>
-              пожалуйста, свяжитесь с нами:
-            </span>
-          </div>
-          <form id="form2" class="" action="<?php  $_SERVER['DOCUMENT_ROOT'] ?>/application.php" method="post">
-              <input id="mF" type="text" name="name" value="" placeholder="Ваше имя" required>
-              <input type="text" name="tel" value="" placeholder="Номер телефона" required>
-              <textarea onkeyup="javascript:countme();"  rows="8" cols="80" placeholder="Текст сообщения" required></textarea>
-              <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
-              <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
-              <input  name="inn" class="userInn" type="hidden" value="New-York callback"/>
-              <input class="button" type="submit" name="" value="Отправить">
-            </form>
-        </div>
-        <div class="contact_info form_name wow bounceInRight" data-wow-delay="0.5ms">
-          <span>Отдел продаж</span>
-          <p>(044) <span class="ringo-phone">332 01 00</span></p>
-          <p>Киев, ул.Антоновича, 74-78</p>
-          <p>Пн - Пт: 10.00 - 20.00</p>
-          <p>Сб - Вс: 10.00 - 18.00</p>
-          <p>info@new-york.com.ua</p>
-          <span>Отдел маркетинга</span>
-          <p>marketing@saga-development.com.ua</p>
-        </div>
+    <!-- ======section video======= -->
+    <div class="video_container" style="/* display: none; */">
+      <div class="video__box">
+        <video class="video_desk" autoplay loop muted class="main-video-bg">
+          <source src="/SAGA_NEW_YORK.mp4" type="video/mp4">
+        </video>
+        <video  class="is__mobile" src="/SAGA_NEW_YORK.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' playsinline loop muted autoplay controls></video>
       </div>
-    </div> -->
-    <!-- ======= end section contact====== -->
+      <div class="sound">
+        <img id="sound_on" onclick="sound_off ()" src="/img/sound_on.svg" style="display:none;">
+        <img id="sound_off" onclick="sound_on ()" src="/img/sound_off.svg" style="display:block;">
+      </div>
+      <div class="arrow_dance">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#000000" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+        <g><path d="M500,755.9L14.7,270.6c-6.2-6.2-6.2-15.6,0-21.8c6.2-6.2,15.6-6.2,21.8,0L500,712.3l463.6-463.6c6.2-6.2,15.6-6.2,21.8,0c6.2,6.2,6.2,15.6,0,21.8L500,755.9z"/></g>
+        </svg>
+
+      </div>
+      <style media="screen">
+      .video_container{position: relative;}
+      .is__mobile{display: none;}
+      video{
+        width: 100%;
+        margin-bottom: -3px;
+        }
+      .sound{
+        position: absolute;
+        left: 30px;
+        top: 90%;
+        margin-top: -100px;
+      }
+      .sound img{  width: 40px;}
+      .arrow_dance{
+        width: 60px;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        margin-top: -100px;
+        margin-left: -30px;
+        -webkit-animation: bounce 2s infinite;
+        animation: bounce 2s infinite;
+      }
+      @-webkit-keyframes bounce {
+         0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);
+           transform: translateX(0);}
+         40% {-webkit-transform: translateY(-30px);
+           transform: translateY(-30px);}
+         60% {-webkit-transform: translateY(-15px);
+           transform: translateY(-15px);}
+       }
+       @-moz-keyframes bounce {
+         0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+         40% {transform: translateY(-30px);}
+         60% {transform: translateY(-15px);}
+       }
+       @keyframes bounce {
+         0%, 20%, 50%, 80%, 100% {-ms-transform: translateY(0);
+           transform: translateY(0);}
+         40% {-ms-transform: translateY(-30px);
+           transform: translateY(-30px);}
+         60% {-ms-transform: translateY(-15px);
+           transform: translateY(-15px);}
+       }
+     @media only screen and (min-width: 1368px) {
+         video{width: 100%;}
+       }
+    @media only screen and (max-width: 768px) {
+        .video_container{
+          margin-top: 50px;
+          height: auto;
+        }
+        .is__mobile{
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        .video_desk{display: none;}
+        .sound{display: none;}
+        .arrow_dance{display: none;}
+        video{margin: 0;}
+      }
+      </style>
+      <script>
+
+      function sound_on () {
+        var video = document.querySelector("video");
+        var sound_on = document.getElementById("sound_on");
+        var sound_off = document.getElementById("sound_off");
+        video.removeAttribute("muted");
+        video.muted = false;
+        sound_on.setAttribute("style", "display:block;");
+        sound_off.setAttribute("style", "display:none;");
+        }
+      function sound_off () {
+        var video = document.querySelector("video");
+        var sound_on = document.getElementById("sound_on");
+        var sound_off = document.getElementById("sound_off");
+        video.muted = true;
+        sound_on.setAttribute("style", "display:none;");
+        sound_off.setAttribute("style", "display:block;");
+        }
+
+
+
+      </script>
+
+    </div>
+
+    <!-- ======end section video======= -->
+    <!-- ========== section contact=============== -->
     <div class="section_contact">
       <div class="wrapper">
         <div class="trigger-0"></div>
@@ -560,7 +525,6 @@
                 <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
                 <input  name="inn" class="userInn" type="hidden" value="New-York callback"/>
                 <input  name="language"type="hidden" value="<?= $language; ?>">
-                 <?//<div class="not" id="reCaptcha2"></div>?>
                 <input class="button" type="submit" name="" value="Отправить">
               </form>
               <script type="text/javascript">
@@ -627,10 +591,11 @@
 
         </style>
 
-    <?php include_once('include/footer.php'); ?>
+    <!-- ======= end section contact====== -->
 
+    <?php include_once('include/footer.php'); ?>
   <!-- =====<modal>======== -->
- <? /*  <div class="main_overlay">
+<?php/*   <div class="main_overlay">
       <div class="main_modal">
         <div class="modal_content">
           <div class="modal_close"><img src="/img/icons/close_b.svg" alt="" width="40"></div>
@@ -641,10 +606,8 @@
           </div>
         </div>
       </div>
-    </div> */ ?>
+    </div> */?>
   <!-- ======<end modal>======== -->
-
-    <script src="/js/jquery-2.1.3.min.js" type="text/javascript"></script>
     <script async defer src="map.js" type="text/javascript"></script>
     <script>
       var script = '<script src="/js/infobubble';
@@ -664,12 +627,5 @@
     <script type="text/javascript" src="/js/animation.gsap.min.js"></script>
     <!-- <script async defer async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_XaLtOX8vgeRAIeqgdfHh9q1lNTIS3Y0&callback=initMap&language=ru&region=RU"></script> -->
     <script src="/js/script.js?v=1.1"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-		<script>
-		$(function(){
-			  $("#callback_form_phone_input").mask("(999) 999-99-99");
-        $("#yourPhone").mask("(999) 999-99-99");
-		});
-		</script>
   </body>
 </html>

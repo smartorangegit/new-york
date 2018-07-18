@@ -1,11 +1,10 @@
-<?php include_once('include/utm.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>≡ ЖК NEW YORK Concept House 》 новий житловий комплекс Нью Йорк в Києві</title>
-	<meta property="og:title" content="≡ ЖК NEW YORK Concept House 》 новий житловий комплекс Нью Йорк в Києві" />
-    <meta property="og:description" content="【NEW YORK Concept House】 Американське якість - Українська ціна в самому центрі столиці! ✅【NEW YORK】 7 хвилин пішки до найближчих 2-х станцій метро, ​​20 хвилин до Хрещатика  ✅【NEW YORK】 Затишний сад у дворі, два дитячих та один баскетбольний майданчики! .... ✅【NEW YORK】 - це частинка Манхеттена в українській столиці!" />
+    <title>ЖК NEW YORK Concept House - житловий комплекс в Києві</title>
+	<meta property="og:title" content="ЖК NEW YORK Concept House - житловий комплекс в Києві" />
+    <meta property="og:description" content="ЖК NEW YORK Concept House найкращі традиціі американської архітектури. Відділ продажу: ☎ 044 290 33 90, Адреса м.Київ, вул.Антоновича, 74/78" />
     <meta property="og:image" content="http://new-york.com.ua/img/building.jpg" />
 	<meta name="robots" content="index, follow"/>
     <meta name="viewport" content="width=device-width">
@@ -13,7 +12,7 @@
     <meta http-equiv="content-language" content="ua">
     <?php include_once('include/gtm1.php'); ?>
     <meta name="keywords" content="NEW YORK Concept House, ЖК New York, ЖК Нью-Йорк, житловий комплекс, Київ, центр, Антоновича, Горького, купити квартиру, новобудова, апартаменти">
-		<meta name="description" content="【NEW YORK Concept House】 Американське якість - Українська ціна в самому центрі столиці! ✅【NEW YORK】 7 хвилин пішки до найближчих 2-х станцій метро, ​​20 хвилин до Хрещатика  ✅【NEW YORK】 Затишний сад у дворі, два дитячих та один баскетбольний майданчики! .... ✅【NEW YORK】 - це частинка Манхеттена в українській столиці!">
+		<meta name="description" content="ЖК NEW YORK Concept House найкращі традиціі американської архітектури. Відділ продажу: ☎ 044 290 33 90, Адреса м.Київ, вул.Антоновича, 74/78">
     <link rel="alternate" hreflang="ua" href="http://new-york.com.ua/" />
 	<link rel="alternate" hreflang="ru" href="http://new-york.com.ua/ru/" />
     <link rel="canonical" href="http://new-york.com.ua/"/>
@@ -21,13 +20,13 @@
     <link href="/css/intlTelInput.css" rel="stylesheet">
     <link href="css/allstyle.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/more.css" rel="stylesheet">
+    <link href="/css/more.css" rel="stylesheet">
   </head>
   <body>
     <?php include_once('include/gtm2.php'); ?>
     <?php include_once('include/header.php'); ?>
 
-    <!-- ======section one======= -->
+<!-- ======section one======= -->
     <div class="section_one">
       <div class="wrapper">
         <div class="one_logo">
@@ -37,11 +36,49 @@
           <style media="screen">
             .one_logo h1{margin-top:50px;}
             @media only screen and (max-width:1180px) {
-              .one_logo svg{ max-height: 60px;}.one_logo h1{margin-top:0px;}
+            .one_logo svg{ max-height: 60px;}.one_logo h1{margin-top:0px;}
             }
           </style>
           <span wow bounceInLift data-wow-delay="5s">Американська якість</span><br>
           <span wow slideLeft data-duration="1000">Українська ціна</span>
+          <div class="sold_box">
+            <img src="/img/sold_grey.png" alt="">
+            <div class="sold_text">
+              Ознайомтеся з іншими проектами SAGA Development
+              <a href="http://saga-development.com.ua/" class="sold_link button waves-effect">Перейти на сайт забудовника</a>
+            </div>
+
+          </div>
+          <style media="screen">
+          .one_logo{
+            position: relative;
+          }
+          .sold_box{
+            position: absolute;
+            top: -80px;
+            right: 0;
+            width: 360px;
+
+          }
+          .sold_box img{
+            width: 100%;
+            height:auto;
+            opacity: 0.75;
+            transform: rotate(25deg);
+            -webkit-transform: rotate(25deg);
+          }
+          .sold_text{
+            background: #aba9c0;
+            color: white;
+            padding: 20px;
+            font-size: 22px;
+            margin-top: -50px;
+          }
+          .sold_link{
+            font-size: 16px;
+            text-align: center;
+          }
+          </style>
         </div>
       </div>
       <div class="trigger-0"></div>
@@ -120,7 +157,7 @@
           </div>
           <div class="three_item">
             <div class="three_number">2<span>хвилини пішки</span></div>
-            <p>до <span class="desktop">одного з архітектурних символів міста - </span>Костелу Св.Миколая</p>
+            <p>до <span class="desktop">одного з архітектурных символів міста - </span>Костелу Св.Миколая</p>
           </div>
           <div class="three_item">
             <div class="three_number">7<span>хвилин пішки</span></div>
@@ -128,7 +165,7 @@
           </div>
           <div class="three_item">
             <div class="three_number">7<span>хвилин пішки</span></div>
-            <p>до двох найближчих станцій метро</p>
+            <p>до двух найближчих станцій метро</p>
           </div>
           <div class="three_item">
             <div class="three_number">20<span>хвилин пішки</span></div>
@@ -145,7 +182,7 @@
     <div class="section_four">
       <div class="four_render parallax-container">
         <h2 class="section_name">Інфраструктура</h2>
-        <div class="parallax"><img src="/img/frontDownNY.jpg"  alt="ЖК NEW YORK (Нью-Йорк) Concept House Киев - фронтальний вид"></div>
+        <div class="parallax"><img <?LazyLoad("/img/frontDownNY.jpg");?>  alt="ЖК NEW YORK (Нью-Йорк) Concept House Киев - фронтальний вид"></div>
       </div>
       <div class="four_info">
         <div class="wrapper">
@@ -189,7 +226,7 @@
           <h2 class="section_name">Вид з Вашого вікна</h2>
             <a href="/panorama/"><img <?LazyLoad("/img/360.png");?> alt="panorama"></a>
         </div>
-        <div class="parallax"><img src="/img/ny360.jpg" alt="ЖК NEW YORK (Нью-Йорк) Concept House Киев - панорамний вид на 360 градусов"></div>
+        <div class="parallax"><img <?LazyLoad("/img/ny360.jpg");?>  alt="ЖК NEW YORK (Нью-Йорк) Concept House Киев - панорамний вид на 360 градусов"></div>
       </div>
     </div>
     <!-- ========== end section five=============== -->
@@ -254,7 +291,7 @@
       <div class="wrapper">
         <h2 class="section_name">Забудовник</h2>
         <div class="section_text">
-          Девелопером проекту ЖК New York Concept House виступає компанія <a href="http://saga-development.com.ua/" target="_blank" style="color:black; text-decoration:underline;">SAGA Development</a> відома такими житловими проектами у Києві,
+          Девелопером проекту ЖК New York Concept House виступає компанія <a href="http://www.riverside-development.ua" target="_blank" style="color:black; text-decoration:underline;">Riverside Development</a> відома такими житловими проектами у Києві,
           як житловий район RYBALSKY, Chicago Central House, Einstein Concept House та BRISTOL Comfort House. Забудовником та генеральним підрядником є компанія KDD Engineering, інвестором та замовником об&prime;єкта &minus; ТОВ «Оболоньторгстандарт».
           Проект реалізується у партнерстві з групою компаній "ХК "Київміськбуд" &minus; надійним забудовником з відмінною репутацією, що має 60-річний досвід.
         </div>
@@ -263,38 +300,31 @@
           <img style="max-width: 250px;border-radius: 50%;margin: 0 auto;background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);box-shadow: 0px 2px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);"  <?LazyLoad("/img/saga-logo.svg");?>   alt="SAGA">
        <?php /*  <img src="/img/logoKDD.svg" alt="KDD"> */?>
         </div>
-      <h2 class="section_name">Проекти цього забудовника</h2>
-
-      <div class="developer_logo clearfix">
-        <ul class="developer_logo-bxslider">
-          <li class="developer_logo__item developer_logo__item-rybalsky"><a href="https://rybalsky.com.ua/"><img src="/img/rybalsky-logo-.svg" alt="RYBALSKY"></a></li>
-          <li class="developer_logo__item developer_logo__item-bristol"><a href="https://bristol.house"><img src="/img/BRISTOL_logo.svg" alt="BRISTOL"></a></li>
-          <li class="developer_logo__item developer_logo__item-einstein"><a href="http://einstein.house/"><img src="/img/EINSTEIN-logo-blue.svg" alt="EINSTEIN"></a></li>
-          <li class="developer_logo__item developer_logo__item-chicago"><a href="https://chicago.kiev.ua/"><img src="/img/Chikago.svg" alt="CHICAGO"></a></li>
-          <li class="developer_logo__item developer_logo__item-sanfrancisco"><a href="http://sanfrancisco.com.ua/"><img src="/img/sanfrancisco_logo_b.png" alt="SANFRANCISCO"></a></li>
-          <li class="developer_logo__item developer_logo__item-kandinskiy"><a href="http://kandinsky-residence.com.ua/"><img src="/img/kandinsky_logo.svg"  alt="Kandinskiy"></a></li>
-          <li class="developer_logo__item developer_logo__item-resident"><a href="http://resident.house/"><img src="/img/resident_logo_color.svg" alt="Resident"></a></li>
-        </ul>
-      </div>
+		  <h2 class="section_name">Проекти цього забудовника</h2>
+	  <div class="developer_logo clearfix">
+      <ul class="developer_logo-bxslider">
+        <li class="developer_logo__item developer_logo__item-rybalsky"><a href="https://rybalsky.com.ua/"><img src="/img/rybalsky-logo-.svg" alt="RYBALSKY"></a></li>
+        <li class="developer_logo__item developer_logo__item-bristol"><a href="https://bristol.house"><img src="/img/BRISTOL_logo.svg" alt="BRISTOL"></a></li>
+        <li class="developer_logo__item developer_logo__item-einstein"><a href="http://einstein.house/"><img src="/img/EINSTEIN-logo-blue.svg" alt="EINSTEIN"></a></li>
+        <li class="developer_logo__item developer_logo__item-chicago"><a href="https://chicago.kiev.ua/"><img src="/img/Chikago.svg" alt="CHICAGO"></a></li>
+        <li class="developer_logo__item developer_logo__item-sanfrancisco"><a href="http://sanfrancisco.com.ua/"><img src="/img/sanfrancisco_logo_b.png" alt="SANFRANCISCO"></a></li>
+        <li class="developer_logo__item developer_logo__item-kandinskiy"><a href="http://kandinsky-residence.com.ua/"><img src="/img/kandinsky_logo.svg"  alt="Kandinskiy"></a></li>
+        <li class="developer_logo__item developer_logo__item-resident"><a href="http://resident.house/"><img src="/img/resident_logo_color.svg" alt="Resident"></a></li>
+      </ul>
+    </div>
 
 
         <h3 class="section_name wow fadeIn">Правова інформація</h3>
         <div class="section_text wow fadeIn">
-          SAGA Development працює виключно в правовому полі. Ми маємо дозвіл на будівництво ЖК NEW YORK Concept House і всі інші необхідні документи. Будівництво ведеться з
-          урахуванням високих норм будівництва, відповідно до законодавства України. Житловий комплекс зводиться на земельній ділянці за адресою вулиця Антоновича, 74.
+          Riverside Development працює виключно в правовому полі. Ми маємо дозвіл на будівництво ЖК NEW YORK Concept House і всі інші необхідні документи. Будівництво ведеться з
+          урахуванням високих норм будівництва, відповідно до законодавства України. Житловий комплекс зводиться на земельній ділянці за адресою вулиця Антоновича, 74-78.
           Ця ділянка належить Генеральній прокуратурі України. Перед початком будівництва ГПУ і ТОВ «Оболоньторгстандарт» підписали договір про пайову участь в будівництві, згідно з
           яким «Оболоньторгстандарт» виступає забудовником та інвестором проекту. Наша компанія повністю виконала всі зобов&#39;язання перед Генеральною прокуратурою України, передавши
           нерухомість в інших девелоперських проектах. Ви можете бути впевнені в надійності і законності будівництва вашого нового будинку. Ознайомитися з усією дозвільною
-          документацією можна тут або відвідавши наш відділ продажів за адресою Антоновича, 74.
+          документацією можна тут або відвідавши наш відділ продажів за адресою Антоновича, 74-78.
         </div>
 
         <div id="builder_documents" class="document clearfix">
-          <div class="document_item wow fadeIn">
-            <a href="/img/docs/sertifikat-shho-zasvidchue1-b.jpg" data-fancybox="group5" data-caption="Сертифікат, що засвідчує відповідність закінченого об&apos;єкта проектній документації">
-              <img src="/img/docs/sertifikat-shho-zasvidchue-1.jpg" alt="Документи на землю ЖК NEW YORK Concept House">
-            </a>
-            <p>Сертифікат, що засвідчує відповідність закінченого об&apos;єкта проектній документації</p>
-          </div>
           <div class="document_item wow fadeIn">
             <a href="img/docs/land_vityag1_b.jpg" data-fancybox="group" data-caption="Витяг з держреєстру, Акт постійного користування земельною ділянкою та розпорядження про зміну цільового призначення">
               <img  <?LazyLoad("/img/docs/land_vityag1.jpg");?>  alt="Документи на землю ЖК NEW YORK Concept House">
@@ -332,7 +362,7 @@
         </div>
         <div class="section_text">
           Професіонали своєї справи працюють над будівництвом нашого житлового комплексу, а в ході робіт використовуються найсучасніші технології будівництва. Ми ретельно стежимо за
-          дотриманням усіх будівельних норм і вимог. Ми використовуємо тільки екологічні матеріали, безпечні для вашого здоров&#39;я. Будинок було введено в експлуатацію у I кварталі 2018 року. Закладка
+          дотриманням усіх будівельних норм і вимог. Ми використовуємо тільки екологічні матеріали, безпечні для вашого здоров&#39;я. Здача об&#39;єкту запланована на 3 квартал 2017 року. Закладка
           фундаменту була виконана в лютому 2016 року.
         </div>
         <a class="button waves-effect btn" href="/process/">Хід будівництва</a>
@@ -350,31 +380,32 @@
       <div class="slider1">
           <a class="slide" data-fancybox="group4" href="/img/gal/1b.jpg"><img <?LazyLoad("/img/gal/1.jpg");?>  ></a>
           <a class="slide" data-fancybox="group4" href="/img/gal/2b.jpg"><img  <?LazyLoad("/img/gal/2.jpg");?> ></a>
-          <!-- <a class="slide" data-fancybox="group4" href="/img/gal/3b.jpg"><img  <?/*LazyLoad("/img/gal/3.jpg");*/?> ></a> -->
-		  <a class="slide" data-fancybox="group4" href="/img/gal/4b.jpg"><img <?LazyLoad("/img/gal/4.jpg");?>  ></a>
-         <!-- <a class="slide" data-fancybox="group4" href="/img/gal/5b.jpg"><img <?/* LazyLoad("/img/gal/5.jpg"); */?> ></a>-->
-          <!--<a class="slide" data-fancybox="group4" href="/img/gal/6b.jpg"><img <?/* LazyLoad("/img/gal/6.jpg"); */?> ></a>-->
-          <a class="slide" data-fancybox="group4" href="/img/gal/7b.jpg"><img <?LazyLoad("/img/gal/7.jpg");?> ></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/8b.jpg"><img <?LazyLoad("/img/gal/8.jpg");?> ></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/9b.jpg"><img <?LazyLoad("/img/gal/9.jpg");?> ></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/10b.jpg"><img <?LazyLoad("/img/gal/10.jpg");?> ></a>
-          <!--<a class="slide" data-fancybox="group4" href="/img/gal/11b.jpg"><img <?/* LazyLoad("/img/gal/11.jpg"); */?>></a>-->
-		  <a class="slide" data-fancybox="group4" href="/img/gal/12b.jpg"><img <?LazyLoad("/img/gal/12.jpg");?>></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/13b.jpg"><img <?LazyLoad("/img/gal/13.jpg");?>></a>
-          <a class="slide" data-fancybox="group4" href="/img/gal/14b.JPG"><img <?LazyLoad("/img/gal/14.JPG");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/15b.jpg"><img <?LazyLoad("/img/gal/15.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/16b.jpg"><img <?LazyLoad("/img/gal/16.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/17b.jpg"><img <?LazyLoad("/img/gal/17.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/18b.jpg"><img <?LazyLoad("/img/gal/18.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/19b.jpg"><img <?LazyLoad("/img/gal/19.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/20b.jpg"><img <?LazyLoad("/img/gal/20.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/21b.jpg"><img <?LazyLoad("/img/gal/21.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/22b.jpg"><img <?LazyLoad("/img/gal/22.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/23b.jpg"><img <?LazyLoad("/img/gal/23.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/24b.jpg"><img <?LazyLoad("/img/gal/24.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/25b.jpg"><img <?LazyLoad("/img/gal/25.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/26b.jpg"><img <?LazyLoad("/img/gal/26.jpg");?>></a>
-		  <a class="slide" data-fancybox="group4" href="/img/gal/27b.jpg"><img <?LazyLoad("/img/gal/27.jpg");?>></a>
+          <!-- <a class="slide" data-fancybox="group4" href="/img/gal/3b.jpg"><img  <?LazyLoad("/img/gal/3.jpg");?> ></a> -->
+			    <a class="slide" data-fancybox="group4" href="/img/gal/4b.jpg"><img <?LazyLoad("/img/gal/4.jpg");?>  ></a>
+         <!-- <a class="slide" data-fancybox="group4" href="/img/gal/5b.jpg"><img <?/* LazyLoad("/img/gal/5.jpg"); */?> ></a> -->
+          <!--<a class="slide" data-fancybox="group4" href="/img/gal/6b.jpg"><img <?/* LazyLoad("/img/gal/11.jpg"); */?> ></a> -->
+          <a class="slide" data-fancybox="group4" href="/img/gal/7b.jpg"><img  <?LazyLoad("/img/gal/7.jpg");?> >
+          </a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/8b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/8.jpg" ></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/9b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/9.jpg" ></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/10b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/10.jpg" ></a>
+          <!--<a class="slide" data-fancybox="group4" href="/img/gal/11b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/6.jpg"></a>-->
+		      <a class="slide" data-fancybox="group4" href="/img/gal/12b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/12.jpg"></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/13b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/13.jpg"></a>
+          <a class="slide" data-fancybox="group4" href="/img/gal/14b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/14.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/15b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/15.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/16b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/16.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/17b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/17.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/18b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/18.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/19b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/19.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/20b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/20.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/21b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/21.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/22b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/22.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/23b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/23.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/24b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/24.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/25b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/25.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/26b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/26.jpg"></a>
+		  <a class="slide" data-fancybox="group4" href="/img/gal/27b.jpg"><img src="" class="b-lazy-m" data-src="/img/gal/27.jpg"></a>
       </div>
     </div>
     <!-- ========== end section gallery=============== -->
@@ -496,39 +527,33 @@
           <div class="form_name">
             Щоб отримати додаткову інформацію,
             <span>
-              будь ласка, зв&prime;яжіться із нами:
+              будь-ласка, зв&prime;яжіться із нами:
             </span>
           </div>
               <form id="form2" class="custom_page_callback_form" action="application.php" method="post">
               <input id="mF" type="text" name="name" value="" placeholder="Ваше і&prime;мя" required>
-              <input type="tel" name="tel" value="" placeholder="Номер телефону" id="main_page_form_phone" required class="custom_page_callback_form_phone">
+              <input type="tel" name="tel" value="" placeholder="Номер телефону" required class="custom_page_callback_form_phone">
               <textarea onkeyup="javascript:countme();"  rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
               <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
               <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
               <input  name="inn" class="userInn" type="hidden" value="New-York callback"/>
-              <input  name="language"type="hidden" value="<?= $language; ?>">
               <input class="button" type="submit" name="" value="Надіслати">
             </form>
         </div>
         <div class="contact_info form_name wow bounceInRight" data-wow-delay="0.5ms">
           <span>Відділ продажу</span>
-          <p><a style="color: #000" id="main_page_form" href="">(044) <span class="ringo-phone">498-01-00</span></a></p>
-          <p>Київ, вул.Антоновича, 74</p>
-          <p>Пн - Пт: 9.00 - 19.00</p>
+          <p>(044) <span class="ringo-phone">338-88-28</span></p>
+          <p>Київ, вул.Антоновича, 74-78</p>
+          <p>Пн - Пт: 10.00 - 20.00</p>
           <p>Сб - Нд: 10.00 - 18.00</p>
-          <span>Відділ післяпродажного обслуговування:</span>
-          <p>(044) 4940400</p>
-          <p>(067) 6167538 </p>
-          <p>Пн-пт: 9.00 - 18.00</p>
-          <p>Сб: 10.00 - 18.00</p>
-          <p>Нд: вихідний</p>
-          <p>Для попередньої домовленності про зустріч необхідний попередній запис.</p>
           <p>info@new-york.com.ua</p>
           <span>Відділ маркетингу</span>
-          <p>marketing@saga-development.com.ua </p>
+          <p>marketing@saga-development.com.ua</p>
         </div>
       </div>
     </div> -->
+    <!-- ======= end section contact====== -->
+    <!-- ========== section contact=============== -->
     <div class="section_contact">
       <div class="wrapper">
         <div class="trigger-0"></div>
@@ -622,11 +647,13 @@
           :-moz-placeholder {color: #000 ;}
 
       </style>
+
     <!-- ======= end section contact====== -->
 
     <?php include_once('include/footer.php'); ?>
- <!-- =====<modal>======== -->
-<?php /*	<div class="main_overlay">
+
+  <!-- =====<modal>======== -->
+<?/* 	<div class="main_overlay">
       <div class="main_modal">
         <div class="modal_content">
           <div class="modal_close"><img src="/img/icons/close_b.svg" alt="" width="40"></div>
@@ -638,7 +665,7 @@
           </div>
         </div>
       </div>
-    </div> */?>
+    </div>  */ ?>
   <!-- ======<end modal>======== -->
     <!-- <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script> -->
     <!-- <script src="js/map.min.js" type="text/javascript"></script> -->
@@ -654,8 +681,12 @@
     <script acync src="js/script.js?v=1.1"></script>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_XaLtOX8vgeRAIeqgdfHh9q1lNTIS3Y0&callback=initMap"></script>
+    <script type="text/javascript">
+    function initMap(){var e={lat:50.428115,lng:30.520229},o=new google.maps.Map(document.getElementById("map"),{zoom:15,center:e,scrollwheel:!1,navigationControl:!1,mapTypeControl:!1,scaleControl:!1,draggable:!0,styles:[{featureType:"water",elementType:"geometry",stylers:[{color:"#e9e9e9"},{lightness:17}]},{featureType:"landscape",elementType:"geometry",stylers:[{color:"#f5f5f5"},{lightness:20}]},{featureType:"road.highway",elementType:"geometry.fill",stylers:[{color:"#ffffff"},{lightness:17}]},{featureType:"road.highway",elementType:"geometry.stroke",stylers:[{color:"#ffffff"},{lightness:29},{weight:.2}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{color:"#ffffff"},{lightness:18}]},{featureType:"road.local",elementType:"geometry",stylers:[{color:"#ffffff"},{lightness:16}]},{featureType:"poi",elementType:"geometry",stylers:[{color:"#f5f5f5"},{lightness:21}]},{featureType:"poi.park",elementType:"geometry",stylers:[{color:"#dedede"},{lightness:21}]},{elementType:"labels.text.stroke",stylers:[{visibility:"on"},{color:"#ffffff"},{lightness:16}]},{elementType:"labels.text.fill",stylers:[{saturation:36},{color:"#333333"},{lightness:40}]},{elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"transit",elementType:"geometry",stylers:[{color:"#f2f2f2"},{lightness:19}]},{featureType:"administrative",elementType:"geometry.fill",stylers:[{color:"#fefefe"},{lightness:20}]},{featureType:"administrative",elementType:"geometry.stroke",stylers:[{color:"#fefefe"},{lightness:17},{weight:1.2}]}]}),n=new google.maps.Marker({map:o,title:"Bristol map"}),t=[new google.maps.LatLng(50.433919,30.513405),new google.maps.LatLng(50.433924,30.512895),new google.maps.LatLng(50.433408,30.512668),new google.maps.LatLng(50.433336,30.513424),new google.maps.LatLng(50.433919,30.513405)];new google.maps.Polygon({path:t,strokeColor:"#FF0000",strokeOpacity:0,strokeWeight:2,fillColor:"#FF0000",fillOpacity:0}).setMap(o);var l,s,a,i,r,c,g,d,p,f,n=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.426528,30.514185),animation:google.maps.Animation.DROP,icon:"/img/pin/xbr33.png",width:50});(l=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">New York Concept house<hr><div class="ny" </div></div>',shadowStyle:1,padding:0,backgroundColor:"rgba(255,255,255,1)",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:5,backgroundClassName:"phoney",arrowStyle:2,width:450,height:180})).open(),n.addListener("click",function(){l.open(o,n),s.close(),a.close(),i.close(),r.close(),c.close(),g.close(),d.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){l.close()});var m=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.421797,30.518323),icon:"/img/pin/market.png",width:30});s=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Володимирський ринок<hr><div class="market"></div></div>',position:new google.maps.LatLng(50.40564908,30.50567508),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),m.addListener("click",function(){s.open(o,m),l.close(),a.close(),i.close(),r.close(),c.close(),g.close(),d.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){s.close()});var y=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.4269588,30.516574),icon:"/img/pin/kostel.png",width:30});a=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Костел Св.Миколая <br>відстань 200м<hr><div class="kostel"></div></div>',position:new google.maps.LatLng(50.458463,30.413444),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),y.addListener("click",function(){a.open(o,y),l.close(),s.close(),i.close(),r.close(),c.close(),g.close(),d.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){a.close()});var w=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.432159,30.51258),icon:"/img/pin/market.png",width:30});i=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Супермаркет "МЕГАМАРКЕТ"<hr><div class="megamarket"></div></div>',position:new google.maps.LatLng(50.432159,30.51258),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),w.addListener("click",function(){i.open(o,w),l.close(),s.close(),a.close(),r.close(),c.close(),g.close(),d.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){i.close()});var h=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.432758,30.521413),icon:"/img/pin/stadium.png",width:30});r=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">НСК "ОЛІМПІЙСЬКИЙ"<hr><div class="stadium"></div></div>',position:new google.maps.LatLng(50.432758,30.521413),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),h.addListener("click",function(){r.open(o,h),l.close(),s.close(),a.close(),i.close(),c.close(),g.close(),d.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){r.close()});var b=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.431036,30.51507),icon:"/img/pin/school.png",width:30});c=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Спеціалізована школа № 112 <br>ім. Т. Г. Шевченка з поглибленим<br> вивченням іноземних мов<hr><div class="school112"></div></div>',position:new google.maps.LatLng(50.431036,30.51507),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),b.addListener("click",function(){c.open(o,b),l.close(),s.close(),a.close(),i.close(),r.close(),g.close(),d.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){c.close()});var u=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.432316,30.516581),icon:"/img/pin/metro.png",width:30});g=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Метро Олімпійска</div>',position:new google.maps.LatLng(50.432316,30.516581),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),u.addListener("click",function(){g.open(o,u),l.close(),s.close(),a.close(),i.close(),r.close(),c.close(),d.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){g.close()});var k=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.427613,30.514858),icon:"/img/pin/park.png",width:30});d=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Сквер<div class="skver"></div></div>',position:new google.maps.LatLng(50.427613,30.514858),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),k.addListener("click",function(){d.open(o,k),l.close(),s.close(),a.close(),i.close(),r.close(),c.close(),g.close(),p.close(),f.close()}),google.maps.event.addListener(o,"click",function(){d.close()});var L=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.420626,30.521139),icon:"/img/pin/metro.png",width:30});p=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Метро Палац "Україна"</div>',position:new google.maps.LatLng(50.420626,30.521139),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),L.addListener("click",function(){p.open(o,L),l.close(),s.close(),a.close(),i.close(),r.close(),c.close(),g.close(),d.close(),f.close()}),google.maps.event.addListener(o,"click",function(){p.close()});var v=new google.maps.Marker({map:o,position:new google.maps.LatLng(50.417387,30.521545),icon:"/img/pin/school.png"});f=new InfoBubble({map:o,content:'<div class="phoneytext" style="text-align:center;">Спеціалізована школа №130<hr><p></p></div>',position:new google.maps.LatLng(50.417387,30.521545),shadowStyle:1,padding:0,backgroundColor:"#ffffff",borderRadius:4,arrowSize:10,borderWidth:0,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),v.addListener("click",function(){f.open(o,v),l.close(),s.close(),a.close(),i.close(),r.close(),c.close(),g.close(),d.close(),f.close()}),google.maps.event.addListener(o,"click",function(){f.close()})}var map;
 
-    <script src="js/map.js"></script>
+    // google.maps.event.addDomListener(window, "load", initMap);
+
+    </script>
     <style media="screen">
     .market, .billa, .kostel, .megamarket, .ny,
 .school112, .skver, .stadium
