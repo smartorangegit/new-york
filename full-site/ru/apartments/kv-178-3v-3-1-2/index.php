@@ -34,21 +34,23 @@
 						<img src="/img/Kv/floor-16/kv-178-3v-3-1-2.jpg" alt="ЖК NEW YORK Concept House 3-комнатная квартира. Тип 3Б.">
 					</div>
 					<div class="appart_info wow fadeInDown">
-						<table>
+												<table>
 							<tr><th>Площадь</th><th>м<sup>2</sup></th></tr>
-							<tr><td>Прихожая</td><td>7,61</td></tr>
-							<tr><td>Кухня-столовая</td><td>16,13</td></tr>
-							<tr><td>Спальня 1</td><td>27,81</td></tr>
-							<tr><td>Спальня 2</td><td>21,21</td></tr>
-              <tr><td>Гостиная 1</td><td>56,32</td></tr>
-							<tr><td>Ванная комната 1</td><td>6,26</td></tr>
-							<tr><td>Ванная комната 2</td><td>4,34</td></tr>
-							<tr><td>С/у 1</td><td>1,96</td></tr>
-							<tr><td>Лоджия 1 К * 0,5</td><td>1,93</td></tr>
-							<tr><td>Гардеробная 1</td><td>3,58</td></tr>
-							<tr><td>Кладовая</td><td>10,67</td></tr>
-							<tr><td>Хол</td><td>3,67</td></tr>
-							<tr><td>Общая</td><td>161,49</td></tr>
+
+							
+							<tr><td>Кухня</td><td>20,8</td></tr>
+							<tr><td>Гостиная </td><td>57</td></tr>
+							<tr><td>Спальня №1</td><td>43,3</td></tr>
+							<tr><td>Спальня №2</td><td>28,6</td></tr>
+							
+							<tr><td>Санузел №1</td><td>6,1</td></tr>
+							<tr><td>Санузел №2</td><td>4,4</td></tr>
+							<tr><td>Санузел №3</td><td>3,5</td></tr>
+							<tr><td>Холл</td><td>7,7</td></tr>
+							<tr><td>Гардеробная</td><td>1,9</td></tr>
+							
+							<tr><td>Общая</td><td>173,3</td></tr>
+							<tr><td>Жилая</td><td>128,9</td></tr>
 							<tr><td>Этаж</td><td>16</td></tr>
 						</table>
 					</div>

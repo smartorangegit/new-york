@@ -36,16 +36,20 @@
 					<div class="appart_info wow fadeInDown">
 						<table>
 							<tr><th>Площадь</th><th>м<sup>2</sup></th></tr>
-							<tr><td>Прихожая</td><td>9,66</td></tr>
-							<tr><td>Кухня-столовая</td><td>27,91</td></tr>
-							<tr><td>Спальня 1</td><td>11,11</td></tr>
-							<tr><td>Спальня 2</td><td>16,44</td></tr>
-              <tr><td>Спальня 3</td><td>21,15</td></tr>
-							<tr><td>Гостиная 1</td><td>17,48</td></tr>
-							<tr><td>Ванная комната 1</td><td>6,16</td></tr>
-							<tr><td>С/у 1</td><td>2,68</td></tr>
-							<tr><td>Коридор 1</td><td>13,29</td></tr>
-							<tr><td>Общая</td><td>125,88</td></tr>
+				
+							
+							<tr><td>Кухня</td><td>31,5</td></tr>
+							<tr><td>Гостиная </td><td>17,7</td></tr>
+							<tr><td>Спальня №1</td><td>11,3</td></tr>
+							<tr><td>Спальня №2</td><td>16,8</td></tr>
+							<tr><td>Спальня №3</td><td>21,7</td></tr>
+							<tr><td>Санузел №1</td><td>2,8</td></tr>
+							<tr><td>Санузел №2</td><td>6,2</td></tr>
+							<tr><td>Холл №1</td><td>9,7</td></tr>
+							<tr><td>Холл №2</td><td>13,2</td></tr>
+							
+							<tr><td>Общая</td><td>130,9</td></tr>
+							<tr><td>Жилая</td><td>67,5</td></tr>
 							<tr><td>Этаж</td><td>16</td></tr>
 						</table>
 					</div>

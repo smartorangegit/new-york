@@ -36,17 +36,20 @@
 					<div class="appart_info wow fadeInDown">
 						<table>
 							<tr><th>Площа</th><th>м<sup>2</sup></th></tr>
-							<tr><td>Передпокій</td><td>17,15</td></tr>
-							<tr><td>Кухня-їдальня</td><td>28,62</td></tr>
-							<tr><td>Спальня 1</td><td>15,38</td></tr>
-							<tr><td>Спальня 2</td><td>21,37</td></tr>
-              <tr><td>Вітальня 1</td><td>28,67</td></tr>
-							<tr><td>Ванна кімната 1</td><td>6,37</td></tr>
-							<tr><td>С/в 1</td><td>4,43</td></tr>
-							<tr><td>Гардеробна 1</td><td>3,18</td></tr>
-							<tr><td>Балкон 1 К*0,8</td><td>1,42</td></tr>
-							<tr><td>Хол</td><td>5,3</td></tr>
-							<tr><td>Загальна</td><td>131.89</td></tr>
+
+							
+							<tr><td>Кухня</td><td>28,4</td></tr>
+							<tr><td>Вітальня</td><td>28,7</td></tr>
+							<tr><td>Спальня №1</td><td>28,2</td></tr>
+							<tr><td>Спальня №2</td><td>17,5</td></tr>
+							
+							<tr><td>Санвузол №1</td><td>6,4</td></tr>
+							<tr><td>Санвузол №2</td><td>4,1</td></tr>
+							<tr><td>Хол</td><td>17,4</td></tr>
+							<tr><td>Балкон</td><td>2,3</td></tr>
+							
+							<tr><td>Загальна</td><td>133</td></tr>
+							<tr><td>Житлова</td><td>74,4</td></tr>
 							<tr><td>Поверх</td><td>16</td></tr>
 						</table>
 					</div>

@@ -34,19 +34,29 @@
 						<img src="/img/Kv/floor-21/KV-224-3b-2-1-11.jpg" alt="ЖК NEW YORK Concept House 3-кімнатна квартира. Тип 3Б.">
 					</div>
 					<div class="appart_info wow fadeInDown">
-						<table>
+							<table>
 							<tr><th>Площа</th><th>м<sup>2</sup></th></tr>
-							<tr><td>Кухня-їдальня</td><td>19,54</td></tr>
-							<tr><td>Спальня 1</td><td>21,87</td></tr>
-							<tr><td>Вітальня 1</td><td>24,16</td></tr>
-							<tr><td>Ванна кімната 1</td><td>4,11</td></tr>
-              <tr><td>Спальня 2</td><td>22,39</td></tr>
-							<tr><td>Комора</td><td>4,44</td></tr>
-							<tr><td>Тераса 1 К*0,3</td><td>13,76</td></tr>
-							<tr><td>Тераса 2 К*0,3</td><td>8,37</td></tr>
-			
-							<tr><td>Загальна</td><td>118,64</td></tr>
-							<tr><td>Поверх</td><td>21</td></tr>
+
+							
+							<tr><td>1 рівень</td><td></td></tr>
+							
+							<tr><td>Кухня</td><td>20,1</td></tr>
+							<tr><td>Вітальня</td><td>25,4</td></tr>
+							<tr><td>Кімната №1</td><td>31,3</td></tr>
+							<tr><td>Санвузол</td><td>4,1</td></tr>
+							
+							<tr><td>2 рівень</td><td></td></tr>
+							<tr><td>Кімната №1</td><td>24,4</td></tr>
+							<tr><td>Вбиральня</td><td>4,1</td></tr>
+							<tr><td>Тераса</td><td>14,6</td></tr>
+							
+							<tr><td>3 рівень</td><td></td></tr>
+							<tr><td>Тераса</td><td>8</td></tr>
+							
+							
+							<tr><td>Загальна</td><td>122</td></tr>
+							<tr><td>Житлова</td><td>71,1</td></tr>
+							<tr><td>Поверх</td><td>16</td></tr>
 						</table>
 					</div>
 				</div>

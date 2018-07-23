@@ -34,17 +34,28 @@
 					</div>
 					<div class="appart_info wow fadeInDown">
 						<table>
-							<tr> <th> Площадь </th> <th> м <sup> 2 </sup> </th> </tr>
-							<tr> <td> Прихожая </td> <td> 4,46 </td> </tr>
-							<tr> <td> Кухня-столовая </td> <td> 26,23 </td> </tr>
-							<tr> <td> Гостиная 1 </td> <td> 18,67 </td> </tr>
-							<tr> <td> Ванная комната 1 </td> <td> 4,26 </td> </tr>
-							<tr> <td> Спальня 1 </td> <td> 52,52 </td> </tr>
-							<tr> <td> Терраса 1 К * 0,3 </td> <td> 10,2 </td> </tr>
-							<tr> <td> Терраса 2 К * 0,3 </td> <td> 15,3 </td> </tr>
-
-							<tr> <td> Общая </td> <td> 131,64 </td> </tr>
-							<tr> <td> Этаж </td> <td> 21 </td> </tr>
+							<tr><th>Площадь</th><th>м<sup>2</sup></th></tr>
+			
+							
+							<tr><td>1 уровень</td><td></td></tr>
+							<tr><td>Холл</td><td>4,2</td></tr>
+							<tr><td>Кухня</td><td>30,4</td></tr>
+							<tr><td>Гостиная</td><td>18,5</td></tr>
+							
+							<tr><td>Санузел</td><td>4,6</td></tr>
+							
+							<tr><td>2 уровень</td><td></td></tr>
+							<tr><td>Комната №1</td><td>52,5</td></tr>
+							
+							<tr><td>Терраса</td><td>3</td></tr>
+							
+							<tr><td>3 уровень</td><td></td></tr>
+							<tr><td>Терраса</td><td>15,9</td></tr>
+							
+							
+							<tr><td>Общая</td><td>129,1</td></tr>
+							<tr><td>Жилая</td><td>71</td></tr>
+							<tr><td>Этаж</td><td>16</td></tr>
 						</table>
 					</div>
 				</div>

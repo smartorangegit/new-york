@@ -33,23 +33,36 @@
 						<img src="/img/Kv/floor-21/KV-218-4a-3-1-1.jpg" alt="ЖК NEW YORK Concept House 3-комнатная квартира. Тип 4А.">
 					</div>
 					<div class="appart_info wow fadeInDown">
-						<table>
-						<tr> <th> Площадь </th> <th> м <sup> 2 </sup> </th> </tr>
-						<tr> <td> Прихожая </td> <td> 8,73 </td> </tr>
-						<tr> <td> Кухня-столовая </td> <td> 15,18 </td> </tr>
-						<tr> <td> Гостиная 1 </td> <td> 43,6 </td> </tr>
-						<tr> <td> Ванная комната 1 </td> <td> 6,91 </td> </tr>
-						<tr> <td> Гардеробная 1 </td> <td> 4,21 </td> </tr>
-						<tr> <td> Спальня 1 </td> <td> 15,21 </td> </tr>
-						<tr> <td> Спальня 2 </td> <td> 18,83 </td> </tr>
-						<tr> <td> Ванная комната 2 </td> <td> 8,1 </td> </tr>
-						<tr> <td> Ванная комната 3 </td> <td> 5,52 </td> </tr>
-						<tr> <td> Коридор 1 </td> <td> 7,54 </td> </tr>
-						<tr> <td> Терраса 1 К * 0,3 </td> <td> 34,14 </td> </tr>
-						<tr> <td> Творческая мастерская 1 </td> <td> 22,1 </td> </tr>
-						<tr> <td> ТМ Ванная комната </td> <td> 10,7 </td> <tr>
-						<tr> <td> Общая </td> <td> 200,77 </td> </tr>
-						<tr> <td> Этаж </td> <td> 21 </td> </tr>
+<table>
+							<tr><th>Площадь</th><th>м<sup>2</sup></th></tr>
+
+							
+							<tr><td>1 уровень</td><td></td></tr>
+							<tr><td>Холл</td><td>8,6</td></tr>
+							<tr><td>Гостиная</td><td>44,7</td></tr>
+							<tr><td>Кухня</td><td>15,1</td></tr>
+							<tr><td>Санузел</td><td>6,7</td></tr>
+							
+							<tr><td>Гардеробная</td><td>4,2</td></tr>
+							
+							
+							<tr><td>2 уровень</td><td></td></tr>
+							<tr><td>Холл</td><td>7,3</td></tr>
+							<tr><td>Комната №1</td><td>15,3</td></tr>
+							<tr><td>Комната №2</td><td>21,7</td></tr>
+							<tr><td>Санузел №1</td><td>7,9</td></tr>
+							<tr><td>Санузел №2</td><td>5,2</td></tr>
+							
+							
+							<tr><td>3 уровень</td><td></td></tr>
+							<tr><td>Холл</td><td>22,6</td></tr>
+							<tr><td>Санузел</td><td>10,2</td></tr>
+							<tr><td>Терраса</td><td>31,9</td></tr>
+							
+							
+							<tr><td>Общая</td><td>201,4</td></tr>
+							<tr><td>Жилая</td><td>81,7</td></tr>
+							<tr><td>Этаж</td><td>16</td></tr>
 						</table>
 					</div>
 				</div>

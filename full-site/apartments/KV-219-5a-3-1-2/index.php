@@ -36,25 +36,32 @@
 					<div class="appart_info wow fadeInDown">
 						<table>
 							<tr><th>Площа</th><th>м<sup>2</sup></th></tr>
-							<tr><td>Передпокій</td><td>10,84</td></tr>
-							<tr><td>Кухня-їдальня</td><td>21,01</td></tr>
-							<tr><td>Спальня 1</td><td>11,42</td></tr>
-							<tr><td>Вітальня 1</td><td>29</td></tr>
-              <tr><td>Ванна кімната 1</td><td>4,34</td></tr>
-							<tr><td>С/в 1</td><td>2,35</td></tr>
-							<tr><td>Кабінет</td><td>8,07</td></tr>
-							<tr><td>Спальня 2</td><td>15,79</td></tr>
-							<tr><td>Ванна кімната 2</td><td>5,92</td></tr>
-							<tr><td>Ванна кімната 3</td><td>5,57</td></tr>
-							<tr><td>Гардеробна 1</td><td>3,83</td></tr>
-							<tr><td>Коридор 1</td><td>16,17</td></tr>
-							<tr><td>Тераса 1 К*0,3</td><td>13,65</td></tr>
-							<tr><td>Творча майстерня 1</td><td>32,5</td></tr>
-							<tr><td>ТМ С/в</td><td>2,61</td></tr>
-							<tr><td>ТМ Гардеробна</td><td>1,74</td></tr>
-							<tr><td>Загальна</td><td>199,56</td></tr>
+						
 							
-							<tr><td>Поверх</td><td>21</td></tr>
+							
+							<tr><td>1 рівень</td><td></td></tr>
+							<tr><td>Хол</td><td>13,8</td></tr>
+							<tr><td>Кухня</td><td>20,2</td></tr>
+							<tr><td>Вітальня</td><td>28,8</td></tr>
+							<tr><td>Кімната №1</td><td>11,4</td></tr>
+							<tr><td>Кабінет</td><td>8,2</td></tr>
+							<tr><td>Санвузол №1</td><td>2,3</td></tr>
+							<tr><td>Санвузол №2</td><td>4,1</td></tr>
+							
+							
+							<tr><td>2 рівень</td><td></td></tr>
+							<tr><td>Хол</td><td>16,3</td></tr>
+							<tr><td>Кімната №1</td><td>16</td></tr>
+							<tr><td>Кімната №2</td><td>15,8</td></tr>
+							<tr><td>Вбиральня</td><td>3,9</td></tr>
+							<tr><td>Санвузол №1</td><td>5,4</td></tr>
+							<tr><td>Санвузол №2</td><td>5,5</td></tr>
+							
+							
+							
+							<tr><td>Загальна</td><td>204</td></tr>
+							
+							<tr><td>Поверх</td><td>16</td></tr>
 						</table>
 					</div>
 				</div>

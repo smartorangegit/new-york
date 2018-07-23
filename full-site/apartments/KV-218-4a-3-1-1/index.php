@@ -34,23 +34,36 @@
 						<img src="/img/Kv/floor-21/KV-218-4a-3-1-1.jpg" alt="ЖК NEW YORK Concept House 3-кімнатна квартира. Тип 4А.">
 					</div>
 					<div class="appart_info wow fadeInDown">
-						<table>
+				<table>
 							<tr><th>Площа</th><th>м<sup>2</sup></th></tr>
-							<tr><td>Передпокій</td><td>8,73</td></tr>
-							<tr><td>Кухня-їдальня</td><td>15,18</td></tr>
-							<tr><td>Вітальня 1</td><td>43,6</td></tr>
-							<tr><td>Ванна кімната 1</td><td>6,91</td></tr>
-              <tr><td>Гардеробна 1</td><td>4,21</td></tr>
-							<tr><td>Спальня 1</td><td>15,21</td></tr>
-							<tr><td>Спальня 2</td><td>18,83</td></tr>
-							<tr><td>Ванна кімната 2</td><td>8,1</td></tr>
-							<tr><td>Ванна кімната 3</td><td>5,52</td></tr>
-							<tr><td>Коридор 1</td><td>7,54</td></tr>
-							<tr><td>Тераса 1 К*0,3</td><td>34,14</td></tr>
-							<tr><td>Творча майстерня 1</td><td>22,1</td></tr>
-							<tr><td>ТМ Ванна кімната</td><td>10,7</td></tr>
-							<tr><td>Загальна</td><td>200,77</td></tr>
-							<tr><td>Поверх</td><td>21</td></tr>
+
+							
+							<tr><td>1 рівень</td><td></td></tr>
+							<tr><td>Хол</td><td>8,6</td></tr>
+							<tr><td>Вітальня</td><td>44,7</td></tr>
+							<tr><td>Кухня</td><td>15,1</td></tr>
+							<tr><td>Санвузол</td><td>6,7</td></tr>
+							
+							<tr><td>Вбиральня</td><td>4,2</td></tr>
+							
+							
+							<tr><td>2 рівень</td><td></td></tr>
+							<tr><td>Хол</td><td>7,3</td></tr>
+							<tr><td>Кімната №1</td><td>15,3</td></tr>
+							<tr><td>Кімната №2</td><td>21,7</td></tr>
+							<tr><td>Санвузол №1</td><td>7,9</td></tr>
+							<tr><td>Санвузол №2</td><td>5,2</td></tr>
+							
+							
+							<tr><td>3 рівень</td><td></td></tr>
+							<tr><td>Хол</td><td>22,6</td></tr>
+							<tr><td>Санвузол</td><td>10,2</td></tr>
+							<tr><td>Тераса</td><td>31,9</td></tr>
+							
+							
+							<tr><td>Загальна</td><td>201,4</td></tr>
+							<tr><td>Житлова</td><td>81,7</td></tr>
+							<tr><td>Поверх</td><td>16</td></tr>
 						</table>
 					</div>
 				</div>
