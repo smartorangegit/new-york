@@ -25,9 +25,9 @@ if($pieces[3] == "ru") {
 
 ?>
 
-<div class="animationload">
+<!-- <div class="animationload">
    <div class="loader"><img src="/img/icons/loader.gif"></div>
-</div>
+</div> -->
 <? include('preloader.php'); ?>
 <!-- end preloader -->
 <!-- =========header========= -->
