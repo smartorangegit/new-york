@@ -57,11 +57,32 @@ while ($myrow = mysqli_fetch_array($sel))
         <div class="trigger-0"></div>
         <h1 class="section_name">Новини</h1>
         <div class="news-container">
-            <p class="news_date"><?=$myrow['date'];?> <?=$myrow['time'];?></p>
+          <div class="news_img_box">
+            <div class="img_inner">
+              <img <?LazyLoad($myrow['img_path'].'/'.$myrow['img_name']);?> />
+            </div>
+            <div class="news_gallery_mini" >
+              <div class="gallery_mini_item" data-pictures="/img/2017-05-29_10:52:27/news2.jpg">
+                <img src="/img/2017-05-29_10:52:27/news2.jpg" alt="">
+              </div>
+            <div class="gallery_mini_item" data-pictures="https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&h=350">
+              <img src="https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&h=350" alt="">
+            </div>
+            <div class="gallery_mini_item" data-pictures="https://images.pexels.com/photos/373965/pexels-photo-373965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+              <img src="https://images.pexels.com/photos/373965/pexels-photo-373965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+            </div>
+            <div class="gallery_mini_item" data-pictures="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&h=350">
+              <img src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&h=350" alt="">
+            </div>
+            <div class="gallery_mini_item" data-pictures="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&h=350">
+              <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&h=350" alt="">
+            </div>
+            </div>
+          </div>
+          <div class="blok_article">
             <h2 class="news_name"><?=$myrow['name_news_ua'];?></h2>
+            <p class="news_date"><?=$myrow['date'];?> <?=$myrow['time'];?></p>
 
-            <div class="blok_article">
-                <img <?LazyLoad($myrow['img_path'].'/'.$myrow['img_name']);?> />
                 <div class="text_blok_left">
 
                     <p class="section_text">
@@ -73,11 +94,7 @@ while ($myrow = mysqli_fetch_array($sel))
                     <?=$myrow['video'];?>
                 </div>
             </div>
-            <style>
-                .section_text{
-                    margin-top: 32px;
-                }
-            </style>
+
         </div>
 
 
@@ -86,24 +103,18 @@ while ($myrow = mysqli_fetch_array($sel))
 </div>
 </div>
 
-<style>
-    .text_blok_left{
-        display: inline;
-    }
-    .section_news__list img {
-        float:left;
-        width: 40%;
-        margin-top: 30px;
-        padding: 0 10px ;
-    }
-    .blok_article{
-        overflow: hidden;
-    }
-</style>
+
 
 <?php include_once('../../include/footer.php'); ?>
 
 <script src="/js/jquery-2.1.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$('.gallery_mini_item').click(function(){
+  var newSrc = this.dataset.pictures;
+  $('.img_inner img').attr('src', newSrc);
+})
+
+</script>
 <script src="/js/wow.min.js"></script>
 <script src="/js/jquery.easing.js" type="text/javascript"></script>
 <script src="/js/jquery.bxslider.js"></script>

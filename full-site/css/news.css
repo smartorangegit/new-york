@@ -7,23 +7,6 @@ html, body{
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.section_name {
-    font-size: 50px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0px auto 40px;
-
-}
-
-.section_text_container p {
-  margin-top: 10px;
-  text-indent: 0px;
-  padding-bottom: 5px;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 34px;
-  text-align: justify;
-}
 .news_item{
  width: 24.5%;
  box-sizing: border-box;
@@ -32,9 +15,30 @@ html, body{
  display: inline-block;
  vertical-align: top;
 }
+.news_item_image {
+  background-size: cover;
+  background-position: center;
+  height: 198px;
+  width: 100%;
+}
 .news_item img{
   width: 100%;
   margin-bottom: 12px;
+}
+.section_name {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px auto 40px;
+}
+.section_text_container p {
+  margin-top: 10px;
+  text-indent: 0px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: justify;
 }
 .news_item span{
   color: #4c4c4c;
@@ -55,7 +59,7 @@ p.news_prev{
   overflow: hidden;
 }
 .news_date{
-  font-size: 20px;
+  font-size: 12px;
   line-height: 50px;
 }
 h2.news_name {
@@ -83,13 +87,6 @@ p.news_name{
 .news_container{
   margin-bottom: 50px;
 }
-.news_item_image {
-  background-size: cover;
-  background-position: center;
-  height: 198px;
-  width: 100%;
-}
-
 .video {
   height: 0;
   position: relative;
@@ -105,6 +102,45 @@ p.news_name{
     top: 0;
     width: 100%;
     height: 100%;
+}
+.news_img_box{
+  width: 50%;
+  float: left;
+  margin: 0 50px 20px 0;
+}
+.news_gallery_mini{
+  display: flex;
+  margin: 0 -6px 0 -6px;
+
+}
+.gallery_mini_item{
+  width: 100px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  margin: 6px;
+  cursor: pointer;
+}
+.gallery_mini_item img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.img_inner{
+  position: relative;
+  width: 100%;
+  height: 370px;
+  overflow: hidden;
+}
+.img_inner img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width:768px) {
