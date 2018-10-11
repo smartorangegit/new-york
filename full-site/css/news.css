@@ -180,3 +180,17 @@ p.news_name {
 	height: 23em;
 }
 }
+.text_blok_left p {
+    text-indent: 24px;
+    padding-bottom: 20px;
+	font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+}
+@media only screen and (max-width: 767px) {
+	.text_blok_left p {
+		font-size: 14px;
+		line-height: 20px;
+		text-indent: 12px;
+	}
+}
