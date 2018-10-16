@@ -222,3 +222,42 @@ svg path:hover{
 
 
  }
+ 
+
+.appart_callback_form .intl-tel-input{
+  vertical-align: middle;
+  margin-bottom: 0;
+  float: right;
+}
+
+.appart_callback_form .intl-tel-input .custom_page_callback_form_phone {
+  width: 100%;
+}
+
+
+@media only screen and (max-width:1200px) {
+  .appart_callback_form .intl-tel-input {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .appart_callback_form .intl-tel-input .custom_page_callback_form_phone {
+    height: 60px;
+  }
+
+  .appart_callback_form input[type=text] {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .appart_callback_form .intl-tel-input .custom_page_callback_form_phone {
+    height: 48px;
+  }
+  .appart_callback_form .intl-tel-input {
+    margin-bottom: 10px;
+  }
+  .appart_callback_form input[type=submit] {
+    float: none;
+  }
+}

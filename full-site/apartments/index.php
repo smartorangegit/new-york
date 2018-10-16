@@ -536,13 +536,14 @@
               будь-ласка, зв&prime;яжіться із нами:
             </span>
           </div>
-              <form id="form2" class="custom_page_callback_form" action="/application.php" method="post">
+              <form id="form2" class="custom_page_callback_form appart_callback_form" action="/application.php" method="post">
               <input type="text" name="name" value="" placeholder="Ваше і&prime;мя" required>
               <input type="tel" name="tel" value="" placeholder="Номер телефону" id="main_page_form_phone" required class="custom_page_callback_form_phone">
               <textarea tabindex="4" onkeyup="javascript:countme();"  rows="8" cols="80" placeholder="Текст повідомлення" required></textarea>
     <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
     <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
     <input  name="inn" class="userInn" type="hidden" value="New-York callback"/>
+    <span id="appart"></span>
     <input  name="language"type="hidden" value="<?= $language; ?>">
               <?//<div class="not" id="reCaptcha2"></div>?>
               <input class="button" type="submit" name="" value="Надіслати">
