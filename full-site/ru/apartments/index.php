@@ -516,6 +516,17 @@
                 иметь лоджию, гостиную, две спальни и раздельный санузел.
                 </p>
               </li>
+			  <li>
+                <h2 class="section_name">Пентхаус</h2>
+                <p class="section_text">
+                  Для тех, кто всегда мечтал жить в пентхаусе, на 21-м этаже NEW YORK Concept House расположены двухуровневые и трехуровневые квартиры.
+				  Их главная особенность – в возможности зонирования пространства, и размеры пентхаусов позволяют делать это с особым размахом. 
+				  Площадь двухэтажной квартиры составляет 87 м², поэтому вы с легкостью сможете практиковать свои дизайнерские способности. 
+				  Первый уровень квартиры с холлом, кухней и большой гостиной размером 21 м² можно обустроить в скандинавском стиле и сделать акцент на яркие элементы декора, для второго уровня подойдет элегантный контемпорари. 
+				  Большим семьям предлагаем трехэтажные квартиры от 122 м². Максимальная площадь составляет 204 м² – это пятикомнатный пентхаус с двумя санузлами, кабинетом, спальней площадью 28 м² и видом на стадион Олимпийский. 
+				  В каждой трехуровневой квартире мы спроектировали террасы, поэтому жители будут иметь отдельные лаунж-зоны с потрясающим видом на Киев.
+                </p>
+              </li>
             </ul>
         </div>
       </div>
@@ -544,9 +555,9 @@
           </div>
 
 
-		   <form id="appart" class="" action="<?php  $_SERVER['DOCUMENT_ROOT'] ?>/application.php" method="post">
+		   <form id="appart" class="appart_callback_form" action="<?php  $_SERVER['DOCUMENT_ROOT'] ?>/application.php" method="post">
               <input type="text" name="name" value="" placeholder="Ваше имя" required>
-              <input type="text" name="tel" value="" placeholder="Номер телефона" id="main_page_form_phone" required>
+              <input type="tel" name="tel" value="" placeholder="Номер телефона" id="main_page_form_phone" required>
               <textarea onkeyup="javascript:countme();"  rows="8" cols="80" placeholder="Текст сообщения" required></textarea>
     <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
     <input  name="metka" class="metka" type="hidden" value="New-York callback"/>
@@ -586,7 +597,7 @@
         .one_floor_mob path{ fill-opacity:0;} 
       }
     </style>
-    <script src="/js/jquery-2.1.3.min.js" type="text/javascript"></script>
+    <script src="https://use.fontawesome.com/8f277e411d.js"></script>
     <script src="/js/wow.min.js"></script>
     <script src="/js/jquery.easing.js" type="text/javascript"></script>
     <script src="/js/jquery.bxslider.js"></script>
@@ -596,14 +607,6 @@
     <script type="text/javascript" src="/js/ScrollMagic.js"></script>
     <script type="text/javascript" src="/js/animation.gsap.min.js"></script>
     <script type="text/javascript" src="/js/appart.js"></script>
-    <script src="/js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-		<script>
-		$(function(){
-			  $("#callback_form_phone_input").mask("(999) 999-99-99");
-        $("#yourPhone").mask("(999) 999-99-99");
-        $('#main_page_form_phone').mask("(999) 999-99-99");
-		});
-		</script>
+    <script src="/js/script.js?v=1.0"></script>
   </body>
 </html>

@@ -21,6 +21,7 @@
     <link href="/css/hoverphoto.css" rel="stylesheet">
     <link href="/css/modal.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/appart.css" rel="stylesheet">
   </head>
   <body>
     <?php include_once('include/gtm2.php'); ?>
@@ -38,7 +39,7 @@
                 будь-ласка, зв&prime;яжіться із нами:
               </span>
             </div>
-                <form id="fail" class="" action="application.php" method="post">
+                <form id="fail" class="appart_callback_form" action="application.php" method="post">
                 <input type="text" name="name" value="" placeholder="Ваше і&prime;мя">
                 <input type="text" name="tel" value="" placeholder="Номер телефону">
                 <textarea onkeyup="javascript:countme();"  rows="8" cols="80" placeholder="Текст повідомлення"></textarea>

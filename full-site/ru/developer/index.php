@@ -39,11 +39,7 @@
           внимание социальной составляющей своих проектов. Компания разрабатывает жилые комплексы для людей, которые ценят собственный комфорт и хотят чувствовать себя уютно
           в мегаполисе.
         </div>
-        <div class="section_text">
-          Застройщиком и генподрядчиком проекта ЖК NEW YORK Concept House является компания KDD Engineering. Это девелоперская компания полного цикла, имеющая огромный опыт
-          строительства, управления и эксплуатации крупнейших киевских проектов: ЖК премиум-класса «PecherSky», «Diplomat Hall», «Введенский», «Botanic Тowers», а также многих
-          торговых объектов.
-        </div>
+
 
          <div class="developer_logo clearfix">
           <img style="max-width: 250px;border-radius: 50%;margin: 0 auto;background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);box-shadow: 0px 2px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);"  <?LazyLoad("/img/saga-logo.svg");?>   alt="SAGA">
