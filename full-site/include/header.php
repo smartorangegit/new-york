@@ -49,7 +49,7 @@ if($pieces[3] == "ru") {
 <!-- <div class="animationload">
    <div class="loader"><img src="/img/icons/loader.gif"></div>
 </div> -->
-<? include('preloader.php'); ?>
+<? include('preloader_new/preloader_vibori.php'); ?>
 <!-- end preloader -->
 <!-- =========header========= -->
 

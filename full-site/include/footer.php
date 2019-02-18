@@ -21,12 +21,16 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
         </p>
       </div>
     </div>
+     <div class="develop">
+        <a href="https://smarto.agency/" rel="nofollow" target="_blank" class="develop__title">Розробка сайту</a>
+        <a href="https://smarto.agency/" rel="nofollow" target="_blank" class="develop__link"><img src="/img/logo-smart-white.png" alt="smart"></a>
+    </div>
     <div class="foot_icons">
       <a href="https://www.facebook.com/NewYorkConceptHouse/" title="Facebook" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><path fill="#6C6662" d="M301.5 84.8h70V0h-98.9c-79.7 16.1-80.7 89-80.7 89v86.4h-63.5v84.1h63.5V500h88.5V259.3h83.4l7.9-84.1H281v-61.7c-.1-27.1 20.5-28.7 20.5-28.7z"/></svg>
       </a>
       <a href="https://www.instagram.com/ny_kyiv/" title="instagram" target="_blank" class="instagram">
-        <svg xmlns="http://www.w3.org/2000/svg" height="26"  width="26" enable-background="new 0 0 512 512" fill="#6C6662" viewBox="0 0 512 512"><path d="m352 0h-192c-88.352 0-160 71.648-160 160v192c0 88.352 71.648 160 160 160h192c88.352 0 160-71.648 160-160v-192c0-88.352-71.648-160-160-160zm112 352c0 61.76-50.24 112-112 112h-192c-61.76 0-112-50.24-112-112v-192c0-61.76 50.24-112 112-112h192c61.76 0 112 50.24 112 112z"/><path d="m256 128c-70.688 0-128 57.312-128 128s57.312 128 128 128 128-57.312 128-128-57.312-128-128-128zm0 208c-44.096 0-80-35.904-80-80 0-44.128 35.904-80 80-80s80 35.872 80 80c0 44.096-35.904 80-80 80z"/><circle cx="393.6" cy="118.4" r="17.056"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="100%"  width="100%" enable-background="new 0 0 512 512" fill="#6C6662" viewBox="0 0 512 512"><path d="m352 0h-192c-88.352 0-160 71.648-160 160v192c0 88.352 71.648 160 160 160h192c88.352 0 160-71.648 160-160v-192c0-88.352-71.648-160-160-160zm112 352c0 61.76-50.24 112-112 112h-192c-61.76 0-112-50.24-112-112v-192c0-61.76 50.24-112 112-112h192c61.76 0 112 50.24 112 112z"/><path d="m256 128c-70.688 0-128 57.312-128 128s57.312 128 128 128 128-57.312 128-128-57.312-128-128-128zm0 208c-44.096 0-80-35.904-80-80 0-44.128 35.904-80 80-80s80 35.872 80 80c0 44.096-35.904 80-80 80z"/><circle cx="393.6" cy="118.4" r="17.056"/></svg>
       </a>
 
       <!-- <a href="https://plus.google.com/117958249387903137166" title="Twitter" target="_blank"><i class="fa">
@@ -36,6 +40,8 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
         <svg height="1792" viewBox="0 0 1792 1792" width="1792" xmlns="http://www.w3.org/2000/svg"><path d="M256 597q0-108 37.5-203.5T397 227t152-123 185-78T936 0q158 0 294 66.5T1451 260t85 287q0 96-19 188t-60 177-100 149.5-145 103-189 38.5q-68 0-135-32t-96-88q-10 39-28 112.5t-23.5 95-20.5 71-26 71-32 62.5-46 77.5-62 86.5l-14 5-9-10q-15-157-15-188 0-92 21.5-206.5T604 972t52-203q-32-65-32-169 0-83 52-156t132-73q61 0 95 40.5T937 514q0 66-44 191t-44 187q0 63 45 104.5t109 41.5q55 0 102-25t78.5-68 56-95 38-110.5 20-111 6.5-99.5q0-173-109.5-269.5T909 163q-200 0-334 129.5T441 621q0 44 12.5 85t27 65 27 45.5T520 847q0 28-15 73t-37 45q-2 0-17-3-51-15-90.5-56t-61-94.5-32.5-108T256 597z" fill="#666666"/></svg>
       </i></a> -->
     </div>
+  </div>
+</div>
     <style media="screen">
     .foot_icons a {
 		  background: white;
@@ -46,10 +52,76 @@ $webAd = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 			border-radius: 100%;
 			margin-left: 10px;
 		}
-
+    .develop {
+      float: right;
+      margin-left: 20px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      margin-top: 13px;
+    }
+    .develop__title{
+      font-size: 18px;
+      color: white;
+      margin-right: 10px;
+    }
+    .develop__link {
+      width: 126px;
+    }
+    .develop__link img {
+      max-width: 100%;
+      display: block;
+    }
+    @media screen and (max-width: 1280px){
+      .footer {
+        height: 109px;
+        margin-top: -109px;
+      } 
+      .develop {
+        float: left;
+        margin: 0 auto;
+        justify-content: center;
+      }
+      .foot_info {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .foot_icons {
+        float: right;
+        text-align: center;
+        margin-top: 0;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .footer {
+        height: 150px;
+        margin-top: -150px;
+      } 
+      .foot_icons {
+        float: none;
+        text-align: center;
+        margin-top: 0;
+      }
+      .develop {
+        float: none;
+        margin-bottom: 10px;
+      }
+      .develop__title {
+        font-size: 12px;
+      }
+      .develop__link {
+        width: 100px;
+      }
+      .foot_icons a {
+        width: 30px;
+        height: 30px;
+      }
+    }
     </style>
-  </div>
-</div>
 
 <!-- =============<end footer>============ -->
 
